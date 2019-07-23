@@ -1,8 +1,11 @@
 from selenium.common.exceptions import InvalidArgumentException, NoSuchElementException,StaleElementReferenceException
 from urllib.parse import quote
 from datetime import datetime
+from readability import Document
+from bs4 import BeautifulSoup
 
 
+# TODO: Instead of writing to files, can you return the results directly for the next block to use?
 class SearchModule:
     def __init__(self, browser, prefix, block_css, link_css, next_page_css, limit=50, file_name="links.json"):
         self.prefix = prefix
@@ -63,3 +66,17 @@ class SearchModule:
                 log.close()
             print(e.stacktrace)
             raise SystemExit
+
+
+class TextModule:
+    def __init__(self, browser, url=None):
+        self.browser = browser
+        self.url = url
+
+    def parse_text(self):
+        self.browser.get(self.url)
+        source = self.browser.execute_script("return Array.from(document.getElementsByTagName('html'))[0].innerHTML")
+        doc = Document(source)
+        title = doc.title()
+        body = doc.summary()
+        soup = BeautifulSoup(body, "html.parser")
