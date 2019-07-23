@@ -1,3 +1,0 @@
-Intro to Artificial Intelligence | Udacity
-Artificial Intelligence (AI) is a field that has a long history but is still constantly and actively growing and changing. In this course, youll learn the basics of modern AI as well as some of the representative applications of AI. Along the way, we also hope to excite you about the numerous applications and huge possibilities in the field of AI, which continues to expand human capability beyond our imagination.
-Note: Parts of this course are featured in the Machine Learning Engineer Nanodegree and the Data Analyst Nanodegree programs. If you are interested in AI, be sure to check out those programs as well!
