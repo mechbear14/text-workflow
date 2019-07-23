@@ -1,0 +1,14 @@
+You can now make music with AI thanks to Magenta.js | Packt Hub
+Google Brains Magenta project has released Magenta.js, a tool that could open up new opportunities in developing music and art with AI. The Magenta team have been exploring a range of ways to create with machine learning, but with Magenta.js, they have developed a tool thats going to open up the very domain theyve been exploring to new people.
+Lets take a look at how the tool works, what the aims are, and how you can get involved.
+How does Magenta.js work?
+Magenta.js is a JavaScript suite that runs on TensorFlow.js, which means it can run machine learning models in the browser. The team explains that JavaScript has been a crucial part of their project, as they have been eager to make sure they bridge the gap between the complex research they are doing and their end users. They want their research to result in tools that can actually be used. As theyve said before:
+we often face conflicting desires: as researchers we want to push forward the boundaries of what is possible with machine learning, but as tool-makers, we want our models to be understandable and controllable by artists and musicians.
+As they note, JavaScript has informed a number of projects that have preceded Magenta.js, such as Latent Loops, Beat Blender and Melody Mixer. These tools were all built using MusicVAE, a machine learning model that forms an important part of the Magenta.js suite.
+The first package youll want to pay attention to in Magenta.js is@magenta/music. This package features a number of Magentas machine learning models for music including MusicVAE and DrumsRNN. Thanks to Magenta.js youll be able to quickly get started. You can use a number of the projects pre-trained models which you can find on GitHub here.
+What next for Magenta.js?
+The Magenta team are keen for people to start using the tools they develop. They want a community of engineers, artists and creatives to help them drive the project forward.
+Theyre encouraging anyone who develops using Magenta.js to contribute to the GitHub repo. Clearly, this is a project where openness is going to be a huge bonus. Were excited to not only see what the Magenta team come up with next, but also the range of projects that are built using it.
+Perhaps well begin to see a whole new creative movement emerge?
+Read more on the project site here.
+

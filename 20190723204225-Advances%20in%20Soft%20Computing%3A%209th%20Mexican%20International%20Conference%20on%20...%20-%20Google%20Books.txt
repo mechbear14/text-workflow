@@ -1,0 +1,12 @@
+Advances in Soft Computing: 9th Mexican International Conference on ... - Google Books
+Page 1479th Mexican International Conference on Artificial Intelligence, MICAI 2010, 
+Pachuca, Mexico, November 8-13, 2010, Proceedings Grigori Sidorov, ... 5 
+Conclusions and Future Work We successfully performed tracking of musical 
+performances using a robust ... Bilmes, J.A.: A gentle tutorial of the EM algorithm 
+and its application to parameter estimation for Gaussian mixture and hidden 
+Markov models.Page 2789th Mexican International Conference on Artificial Intelligence, MICAI 2010, 
+Pachuca, Mexico, November 8-13, 2010, Proceedings Grigori Sidorov, Arturo 
+Hernndez Aguirre, Carlos Alberto ... [3] McNab, R.J.: Towards the Digital Music 
+Library: Tune Retrieval from Acoustic Input. ... (2000) [7] Acosta, M., Salazar, H., 
+Zuluaga, C.: Tutorial de Redes Neuronales, Universidad Tec- nolgica de 
+Pereira (2000)...

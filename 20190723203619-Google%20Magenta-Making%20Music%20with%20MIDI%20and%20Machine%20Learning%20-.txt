@@ -1,0 +1,56 @@
+Google Magenta-Making Music with MIDI and Machine Learning -
+
+
+
+In January 2018,we covered Intel's Keynote pre-show which prominently featured Artificial Intelligence and MIDI.But one of the leaders in the AI and Machine Learningfield is Google. Their Magenta project has been doing a lot of research and experimentation in using machine learning for both art and music.The great thing about Google is that they share the details of their research on theirwebsite and even their code on Github.
+Magenta is a research project exploring the role of machine learning in the process of creating art and music. Primarily this involves developing new deep learning and reinforcement learning algorithms for generating songs, images, drawings, and other materials
+by magenta.tensorflow.org
+In this article, we'll review the latest Google music research projects and provide links to further information. We'll also show how MIDI is fundamentally involved in many of these projects. MusicVAE isa hierarchical recurrent variational autoencoder for learning latent spaces for musical scores.It is actually not as complex as it sounds and Google does an incredible job of explaining it on their site.
+When a painter creates a work of art, she first blends and explores color options on an artist's palette before applying them to the canvas. This process is a creative act in its own right and has a profound effect on the final work.Musicians and composers have mostly lacked a similar device for exploring and mixing musical ideas, but we are hoping to change that. Below we introduce MusicVAE, a machine learning model that lets us create palettes for blending and exploring musical scores.
+bymagenta.tensorflow.org
+Beat Blender uses MusicVAE andlets you put 4 drum beats on 4 corners of a square and then uses machine learning and latent spacesto generate two-dimensional palettes of drum beats that are morph from one dimension to the other. You can manually select the patterns with your mouse and even draw a path to automate the progression of the patterns from one dimension to another. You can select the "seeds ' for the four corners and Beat Blender will output MIDI (using Web MIDI)so you can not only use Beat Blenderwith its internal sounds,but with any MIDI deviceyou have connected to your computer.Latent Loops uses MusicVAE to auto-generatemelodies, You can thenput them on a timeline to build more complex arrangements and finallymove themover to their DAW of choice. It also has MIDI output using Web MIDI.
+	Onsets and Frames: Dual-Objective Piano Transcription
+Onsets and Frames is our new model for automatic polyphonic piano music transcription. Using this model, we can convert raw recordings of solo piano performances into MIDI.
+bymagenta.tensorflow.org
+Although still not perfect, Google has made significant progress in extracting MIDI data from polyphonic audiofiles.Here is the original audio input file.
+
+
+
+
+Artist Name
+-
+moz331-ground.mp3
+
+
+
+Here is the output from Google's transcription.
+
+
+
+
+Artist Name
+-
+moz331-ours.mp3
+
+
+
+Performance RNNrecurrent neural network designed to model polyphonic music with expressive timing and dynamics. Google feed the neural network recordings fromthe Yamaha e-Piano Competition datasetwhich contains MIDI captures of over 1400 performances by skilled pianists. The Performance RNN demo websitehas both MIDI input and MIDI output.
+Our performance representation is a MIDI-like stream of musical events. Specifically, we use the following set of events:128 note-on events, one for each of the 128 MIDI pitches. These events start a new note.128 note-off events, one for each of the 128 MIDI pitches. These events release a note.100 time-shift events in increments of 10 ms up to 1 second. These events move forward in time to the next note event.32 velocity events, corresponding to MIDI velocities quantized into 32 bins. These events change the velocity applied to subsequent notes.
+by magenta.tensorflow.org
+Here is an example of the output from the neural network. You can listen to more anytime here.
+
+
+
+
+Artist Name
+-
+Neural Network Created Piano Performance.mp3
+
+
+
+
+N-synth- Neural Audio SynthesisGoogle trained this neural network with over 300.000 samples from commerciallyavailablesample libraries.
+Unlike a traditional synthesizer which generates audio from hand-designed components like oscillators and wavetables, NSynth uses deep neural networks to generate sounds at the level of individual samples. Learning directly from data, NSynth provides artists with intuitive control over timbre and dynamics and the ability to explore new sounds that would be difficult or impossible to produce with a hand-tuned synthesizer.
+by  magenta.tensorflow.org
+Google even developed a hardware interface to control N-Synth.Where is musical AI and Machine Learning headed?We could well be on the edge of a revolution as big as the transition from the electronic era to the digital era that occurred in the years between 1980 and 1985 when MIDI was first born.In the next 3-5 years musical AI tools may well become standard parts of the modern digital studio. Yet somehow its seems that like the softsynth revolution of the early 2000s, MIDI will once again be at the center of the next technology revolution.
+

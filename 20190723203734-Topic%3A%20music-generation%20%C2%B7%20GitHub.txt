@@ -1,0 +1,418 @@
+Topic: music-generation  GitHub
+
+
+
+      Lab Materials for MIT 6.S191: Introduction to Deep Learning
+    
+
+
+
+Jupyter Notebook
+
+
+        Updated yesterday
+
+
+
+
+
+      An AI for Music Generation
+    
+
+
+
+Python
+
+
+        Updated on Jun 7
+
+
+
+
+
+      Resources on Music Generation with Deep Learning
+    
+
+
+        Updated on Nov 11, 2017
+
+
+
+
+
+      Train an LSTM to generate piano or violin/piano music.
+    
+
+
+
+Python
+
+
+        Updated on May 27
+
+
+
+
+
+      Experiment diverse Deep learning models for music generation with TensorFlow
+    
+
+
+
+Python
+
+
+        Updated on Apr 1, 2017
+
+
+
+
+
+      Projects from the Deep Learning Specialization from deeplearning.ai provided by Coursera
+    
+
+
+
+Jupyter Notebook
+
+
+        Updated on Sep 8, 2018
+
+
+
+
+
+      generates music (midi files) using a Tensorflow RNN
+    
+
+
+
+Python
+
+
+        Updated on Jun 23, 2018
+
+
+
+
+
+      Music generation with Keras and LSTM
+    
+
+
+
+Jupyter Notebook
+
+
+        Updated on Mar 23
+
+
+
+
+
+      Event-based music generation with RNN using PyTorch
+    
+
+
+
+Python
+
+
+        Updated 9 days ago
+
+
+
+
+
+      Melody of Life is a step sequencer using cellular automata
+    
+
+
+
+JavaScript
+
+
+        Updated on May 31, 2018
+
+
+
+
+
+
+
+
+
+Python
+
+
+        Updated on Nov 19, 2018
+
+
+
+
+
+      Code for Convolutional Generative Adversarial Networks with Binary Neurons for Polyphonic Music Generation
+    
+
+
+
+Python
+
+
+        Updated on Dec 18, 2018
+
+
+
+
+
+      Generating Music and Lyrics using Deep Learning via Long Short-Term Recurrent Networks (LSTMs). Implements a Char-RNN
+    
+
+
+
+Jupyter Notebook
+
+
+        Updated on Jul 21, 2017
+
+
+
+
+
+      A Talk on Ragalur Expressions
+    
+
+
+
+JavaScript
+
+
+        Updated on Jul 18, 2018
+
+
+
+
+
+      cRNN-GAN to generate music by training on instrumental music (midi)
+    
+
+
+
+Python
+
+
+        Updated on Apr 27, 2018
+
+
+
+
+
+      Code accompanying paper titled "Learning to Traverse Latent Spaces for Musical Score Inpaintning"
+    
+
+
+
+Python
+
+
+        Updated 20 days ago
+
+
+
+
+
+      music generation with a classifying variational autoencoder (VAE) and LSTM
+    
+
+
+
+Python
+
+
+        Updated on Mar 27
+
+
+
+
+
+      Codes for the paper 'Learning to Fuse Music Genres with Generative Adversarial Dual Learning' ICDM 17
+    
+
+
+
+Python
+
+
+        Updated on Apr 11, 2018
+
+
+
+
+
+      Hum2Song: Multi-track Polyphonic Music Generation from Voice Melody Transcription with Neural Networks
+    
+
+
+
+JavaScript
+
+
+        Updated on Dec 18, 2018
+
+
+
+
+
+      PyTorch implementation of " Synthesizing Audio with Generative Adversarial Networks"
+    
+
+
+
+Python
+
+
+        Updated on Mar 12
+
+
+
+
+
+      Domain-Specific Music Generation using a deep LSTM and a VAE in Keras.
+    
+
+
+
+Python
+
+
+        Updated on Nov 19, 2018
+
+
+
+
+
+ 12-tone matrix to generate dodecaphonic melodies 
+
+
+
+
+Python
+
+
+        Updated on Oct 6, 2018
+
+
+
+
+
+      Implementation of a paper "Polyphonic Music Generation with Sequence Generative Adversarial Networks" in TensorFlow
+    
+
+
+
+Python
+
+
+        Updated on Oct 6, 2018
+
+
+
+
+
+      This is my first deep learning project in which I implemented a LSTM model on abc notation music data.
+    
+
+
+
+Jupyter Notebook
+
+
+        Updated on Mar 26
+
+
+
+
+
+      A Variational LSTM to generate rap music (with and without text input)
+    
+
+
+
+Python
+
+
+        Updated on Jan 2, 2017
+
+
+
+
+
+      A Clojure library for live-coding music with Alda
+    
+
+
+
+Clojure
+
+
+        Updated 10 days ago
+
+
+
+
+
+      Create genre-specific melodies using Magenta
+    
+
+
+
+Jupyter Notebook
+
+
+        Updated on Nov 13, 2018
+
+
+
+
+
+      Fake Music
+    
+
+
+
+Python
+
+
+        Updated on Aug 2, 2018
+
+
+
+
+
+ Music generation using Elementary Cellular Automata.
+    
+
+
+
+Python
+
+
+        Updated on Nov 23, 2015
+
+
+
+
+
+      Piano music generation with RNN with Tensorflow
+    
+
+
+
+Python
+
+
+        Updated on Mar 21, 2018
+
+
+
+

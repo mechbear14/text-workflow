@@ -1,0 +1,57 @@
+What Is Google TensorFlow? Open-Source Examples and Tutorials
+
+Advertisement
+
+
+Machine learning is the hottest thing in computing right now. Its easy to see why with the technology being used everywhere, from self-driving cars to law enforcement, to stock market prediction.TensorFlow is Googles project based on machine learning and neural networks. Lets find out what it is, its uses, and how to learn to use it.What Is TensorFlow?Its impossible to fully explain what TensorFlow is without first understanding what machine learning is. Machine learning and neural networks already affect our lives in more ways than youd think.
+
+
+4 Machine Learning Algorithms That Shape Your Life
+
+
+
+
+4 Machine Learning Algorithms That Shape Your Life
+You may not realize it but machine learning is already all around you, and it can exert a surprising degree of influence over your life. Don't believe me? You might be surprised.
+Read More
+
+At its simplest, machine learning is the process of teaching computers how to analyze data and make informed decisions regarding it, without being directly programmed to do so. To achieve this, we train neural networks to perform specific tasks.TensorFlow is Googles open source neural network library, developed by the Google Brain team for a wide range of uses. In essence, TensorFlow removes the need to create a neural network from scratch. Instead, you can train TensorFlow with your data-set and use the results however you wish.So far, so abstract. What can you do with a neural network? It turns out, almost anything!Notable TensorFlow ExamplesImage ClassificationMany beginner machine learning tutorials use image classification as an early example project to help with understanding. By feeding reference images into a neural network, it can learn to predict whether an image contains similar objects.
+
+
+6 Helpful Machine Learning Tutorials and Courses to Grasp the Essentials
+
+
+
+
+6 Helpful Machine Learning Tutorials and Courses to Grasp the Essentials
+There has never been a better time to dive into machine learning. Here are six useful resources to help you learn about machine learning.
+Read More
+
+To see this process in action, take a look at Siraj Ravals 5 minute Darth Vader classifier.VIDEOThis kind of computer-assisted sifting of data is incredibly powerful not only for locating wild Darth Vaders. TensorFlow is already in use in Biomedical image analysis.Almost every field which relies on the analysis of large amounts of image data can benefit from the technology. As featured in the official TensorFlow introduction video, it is being used to streamline conservation efforts for the near-extinct Dugong.VIDEO
+Image Credit: luanfujun @ github.com
+As well as image classification, TensorFlow can be used to alter images dynamically. Deep Photo Style Transfer was put together by a group at Cornell University. The project takes an input image and a styling image before applying that style to the original image  with stunning results.The examples use a mixture of automated and manually achieved image layering, so if you want to get hands on it might be worth brushing up on your Photoshop skills before delving into the library.Magenta AI MusicWe are no stranger to using computers to create beautiful works of art. The idea of computers exhibiting creativity in a way we find recognizable has long been a Sci-Fi dream. With neural network libraries like TensorFlow, its getting closer than ever.Magenta uses TensorFlow to create tools for musicians. Using deep learning, Magenta extends tools available to musicians to open up new kinds of sound blending, and even machine assisted improvisational call and response.VIDEOMagenta is also usable as a smart sequencer in its own right. The ability to use outside libraries is one of the many fantastic features of CodePen. Tero Parviainen used the magenta.js library to create his beautiful Latent Cycles pen.By setting neural network generated improvised loops next to one another, Latent Cycles allows anyone to create unique and beautiful sounds without prior musical knowledge.How to Learn TensorFlowMachine learning is an incredibly dense subject. A good grasp of statistics, mathematics, programming and general data science are all central to understanding. That said, TensorFlow does make it easy to get hands-on experience even as a beginner. The official TensorFlow tutorial takes a step by step approach for setup and use.Most TensorFlow projects use the Python programming language. If you are new to the language, there are a wealth of great places to learn Python. If you are already more familiar with JavaScript, TensorFlow has tutorial videos covering the TensorFlow.js library.VIDEOThese tutorials, alongside Googles free machine learning course, are an invaluable resource, from the providers of the library.
+
+
+What Is Machine Learning? Google's Free Course Breaks It Down for You
+
+
+
+
+What Is Machine Learning? Google's Free Course Breaks It Down for You
+Google has designed a free online course to teach you the fundamentals of machine learning.
+Read More
+
+Other TensorFlow TutorialsFor a fast, informative introduction to TensorFlow and image classifiers, Siraj Raval has an informative (and meme-heavy) 5-minute introduction.VIDEOThis is one of many videos on Sirajs YouTube channel on the subject of machine learning. Between super fast-videos like this one, and long live streams taking a step by step approach, this is a great place to learn TensorFlow and machine learning in Python.Focusing on JavaScript and Tensorflow.js, the Coding Train provide another full-scale approach:VIDEOHost Daniel Shiffman covers various use cases for TensorFlow, and his series on machine learning as a whole is one of the best freely available courses on the subject.Beginner Project: Live Object DetectionVIDEOThis project uses live object recognition to control an automatic waste sorter. The hardware appears to be a Raspberry Pi alternative, though in theory any microcontroller could be used. The real work is being done using a mixture of OpenCV and TensorFlow.The project from the video has no tutorial attached. Dat Trans excellent OpenCV and TensorFlow article uses the same libraries, explaining each element clearly. As a simple small scale idea which uses the TensorFlow library, a project of this scale is the perfect way to get started.Going Further With Machine LearningTensorFlow is an incredibly powerful tool from arguably the internets most important company. The decision to make it open source was a big deal, as it opens it up to all of us.That said, machine learning is an incredibly dense subject. It is worth spending some time withmachine learning online coursesto make the best use of TensorFlow fully.
+
+
+These Machine Learning Courses Will Prepare a Career Path for You
+
+
+
+
+These Machine Learning Courses Will Prepare a Career Path for You
+These excellent online machine learning courses will help you understand the skills needed to start a career in machine learning and artificial intelligence.
+Read More
+
+
+

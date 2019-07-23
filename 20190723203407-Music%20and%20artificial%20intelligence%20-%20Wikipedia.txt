@@ -1,0 +1,28 @@
+Music and artificial intelligence - Wikipedia
+Research in artificial intelligence (AI) is known to have impacted medical diagnosis, stock trading, robot control, and several other fields. Perhaps less popular is the contribution of AI in the field of music. Nevertheless, artificial intelligence and music (AIM) has, for a long time, been a common subject in several conferences and workshops, including the International Computer Music Conference, the Computing Society Conference [1] and the International Joint Conference on Artificial Intelligence. In fact, the first International Computer Music Conference was the ICMC 1974, Michigan State University, East Lansing, USA [2]
+Current research includes the application of AI in music composition, performance, theory and digital sound processing.[3]Several music software programs have been developed that use AI to produce music[4]. Like its applications in other fields, the A.I. in this case also simulates mental task. A prominent feature is the capability of the A.I. algorithm to learn based on information obtained such as the computer accompaniment technology, which is capable of listening to and following a human performer so it can perform in synchrony.[5] Artificial intelligence also drives the so-called interactive composition technology, wherein a computer composes music in response to the performance of a live musician. There are several other A.I. applications to music that covers not only music composition, production, and performance but also the way it is marketed and consumed.
+
+Contents
+
+In 1960, Russian researcher R.Kh.Zaripov published worldwide first paper on algorithmic music composing using the "Ural-1" computer.[6]In 1965, inventor Ray Kurzweil premiered a piano piece created by a computer that was capable of pattern recognition in various compositions. The computer was then able to analyze and use these patterns to create novel melodies. The computer was debuted on Steve Allen's I've Got a Secret program, and stumped the hosts until film star Henry Morgan guessed Ray's secret.[7]
+
+Interactive scoresEdit
+Multimedia Scenarios in interactive scores are represented by
+temporal objects,
+temporal relations and
+interactive objects. Examples of temporal objects are sounds, videos and light controls.
+Temporal objects can be triggered by interactive objects (usually launched by the user) and
+several temporal objects can be executed simultaneously.  A temporal object may contain
+other temporal objects:  this hierarchy allows us to control the start or end of a temporal
+object by controlling the start or end of its parent.  Hierarchy is ever-present in all kinds
+of music:  Music pieces are often hierarchized by movements, parts, motives, measures,
+among other segmentations. [8] [9]
+Computer Accompaniment (Carnegie Mellon University)Edit
+The Computer Music Project at CMU develops computer music and interactive performance technology to enhance human musical experience and creativity. This interdisciplinary effort draws on Music Theory, Cognitive Science, Artificial Intelligence and Machine Learning, Human Computer Interaction, Real-Time Systems, Computer Graphics and Animation, Multimedia, Programming Languages, and Signal Processing.[10]
+Developed at Princeton University by Ge Wang and Perry Cook, ChucK is a text-based, cross-platform language that allows real-time synthesis, composition, performance and analysis of music.
+.[11] It is used by SLOrk (Stanford Laptop Orchestra) [12] and PLOrk (Princeton Laptop Orchestra).
+
+MorpheuS[13] is a research project by Dorien Herremans and Elaine Chew at Queen Mary University of London, funded by a Marie Skodowsk-Curie EU project. The system uses an optimization approach based on a variable neighborhood search algorithm to morph existing template pieces into novel pieces with a set level of tonal tension that changes dynamically throughout the piece. This optimization approach allows for the integration of a pattern detection technique in order to enforce long term structure and recurring themes in the generated music. Pieces composed by MorpheuS have been performed at concerts in both Stanford and London.
+
+Created in February 2016, in Luxembourg, AIVA is program that produces soundtracks for any type of media. The algorithms behind AIVA are based on deep learning architectures[14] AIVA has also been used to compose a Rock track called On the Edge[15], as well as a pop tune Love Sick[16] in collaboration with singer Taryn Southern[17], for the creation of her 2018 album "I am AI".
+

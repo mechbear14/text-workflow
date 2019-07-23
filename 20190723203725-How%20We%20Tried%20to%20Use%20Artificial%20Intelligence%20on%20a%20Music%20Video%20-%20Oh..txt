@@ -1,0 +1,17 @@
+How We Tried to Use Artificial Intelligence on a Music Video - Oh.
+
+(Written with the help of our dev Tima V.)
+Have you tried any those very cool artificially intelligent style transfer apps like, Lucid, Pikazo or Prisma?
+These apps, if you dont already know, use artificial intelligence (AI) to transfer the style of almost anything really. Most of the examples show style transfers of the masters like, Kandinsky, Van Gogh and cubists etc.
+We researched a few sources. We read about Deep Photo Style Transfer and set up the code available on GitHub  and we also made an attempt to use this torch implementation of the neural-style algorithm.
+It was a bit of an uphill climb until we stumbled on this fantastic video:
+Neural Network Deep Style Video Workflow Tutorial (Vue, Torch, Neural-style, After Effects)
+VIDEO
+The developer shows step by step how he used the framework to create the video Secret Society of Soul Painters for Weather Anomaly.
+We tried but it and of course it totally took over and hogged all the resources of the only new computer in the studio for many, many hours. As interesting as this was, we had to make the decision to pull the plug on this AI production.
+AI Video Apps
+Though AI photo apps abound, there wasnt much available for video. We came across the site deepart.io. Their algorithm looked pretty sleek because it tracks image features across time. But, you can see from there price calculator 10 secs of video is like $250. Not in our indie budget.
+Finally, we came across an awesome app built by @BenedictSlaney called Style App. This app worked quite nicely for video.
+Of course, it also took many days and nights to render just one tiny 3 second clip of our footage. So, we sadly had to abandon our idea of using artificial intelligence for this video  for now  to meet our deadline and went for the WebGL experiments. There are only two computers in the studio that can handle the rendering, so we hope we can try again in the Fall when the albums are complete.
+We thought you might be interested in seeing a few of the examples of what we did and the sources we found on our journey.
+

@@ -1,0 +1,6 @@
+Talks - sebastianstober.de
+DAWN  A System for Context-Based Link Recommendation in Web Navigation [slides]
+10th International Conference on Knowledge-Based & Intelligent
+Information & Engineering Systems (KES06)
+October 9, 2006  Bournemouth, UK
+

@@ -1,0 +1,431 @@
+Workshops List (AAAI-19) | AAAI 2019 Conference
+
+
+W01 Affective Content Analysis: Modeling Affect-in-Action (AffCon 2019)
+Affect analysis of content to measure emotions and its experiences is an upcoming, multidisciplinary research area, which still has little cross-disciplinary collaboration. The artificial intelligence (AI) and computational linguistics (CL) community are making strides in identifying and measuring affect from user signals, especially language, while the human-computer interaction (HCI) community has independently explored affect through user experience evaluations. Consumer psychology and marketing have pursued a different direction to ground affect in its theoretical underpinnings as well as their real-world applications.
+The second Affective Content Analysis workshop aims to bring together researchers from computer science, psychology, and marketing science for stimulating discussions on affect, with a focus on language and text. We are also organizing a shared task with a new corpus, to spur the development of new approaches and methods for affect identification.
+Topics
+The theme of AffCon 2019 is Modeling Affect in Action. The word affect is used to refer to emotion, sentiment, mood, and attitudes including subjective evaluations, opinions, and speculations. Psychological models of affect have been adopted by other disciplines to conceptualize and measure users opinions, intentions, and expressions. However, the context-specific characteristics of human affect suggest the need to measure in ways that recognize multiple interpretations of human responses.
+We invite papers that offer modeling and measurement of affect and identify the best affectrelated dimensions to study consumer behavior. In turn, that allows data models to be more informed in representing behaviors and hence effective in guiding decisions and actions by firms. We welcome submissions on topics including  but not limited to  the following:
+
+Deep learning-based models for affect modeling in content (image, audio, and video)
+Affect-aware text generation
+Spoken and formal language comparison
+Measurement and evaluation of affective content
+Modeling consumers affect reactions
+Affect lexica for online marketing communication
+Affective commonsense reasoning
+Affective human-agent, -computer, and-robot interaction
+Multimodal emotion recognition and sentiment analysis
+Computational models for consumer behavior theories
+Psycho-linguistics, including stylometrics and typography
+Bridging the gap between consumer psychology and computational linguistics
+Consumer psychology at scale from big data
+Testing consumer behavior theories with big data
+Psycho-demographic profiling
+
+We especially invite papers investigating multiple related themes, industry papers, and descriptions of running projects and ongoing work. To address the scarcity of standardized baselines, datasets, and evaluation metrics for cross-disciplinary affective content analysis, submissions describing new language resources, evaluation metrics, and standards for affect analysis and understanding are also strongly encouraged.
+Shared Task: CL-Aff: In Pursuit of Happiness
+AI and machine learning (ML) algorithms are leading to abundant models with high prediction accuracies for various affect-related tasks. However, the source of specific human expressions or interpretation of model performances is still unexplored and unknown.
+We invite submissions for the Computational Linguistics Affect Understanding (CL-Aff) Shared Task around identifying causes of happiness. The details of the task are provided on the website.
+Format
+This full-day workshop will have several prominent interdisciplinary invited speakers from the fields of linguistics, psychology, and marketing science to lead the presentation sessions. In a poster session in the afternoon, a few papers deemed more suited for a poster than a presentation will be invited to display a poster or a demo. We will end the workshop with a fishbowl-style discussion among the organizers and participants to decide on future directions for the workshop and the research community.
+Submissions
+EasyChair Submission URL
+Submissions should be made via EasyChair and must follow the formatting guidelines for AAAI-2019 (use the AAAI Author Kit). All submissions must be anonymous and conform to AAAI standards for double-blind review. Both full papers (8 page long including references) and short papers (4 page long including references) that adhere to the 2-column AAAI format will be considered for review.
+Cochairs
+Niyati Chhaya, primary contact (Adobe Research, nchhaya@adobe.com), Kokil Jaidka (University of Pennsylvania, jaidka@sas.upenn.edu), Lyle Ungar (University of Pennsylvania, ungar@cis.upenn.edu), Atanu R Sinha (Adobe Research, atr@adobe.com)
+Additional Information
+Workshop URL
+
+W02 Agile Robotics for Industrial Automation Competition (ARIAC)
+The objective of the Agile Robotics for Industrial Automation Competition (ARIAC) is to test the agility of industrial robot systems, with the goal of enabling industrial robots on the shop floors to be more productive, more autonomous, and to require less time from shop floor workers. In this context, we define agility broadly to address: Failure identification and recovery, where robot can detect failures in a manufacturing process and automatically recover from those failures; Automated planning, to minimize (or eliminate) the up-front robot programming time when a new product is introduced; Fixtureless environment, where robots can sense the environment and perform tasks on parts that are not in predefined locations; Plug and play robots, where robots from different manufacturers can be swapped in and out without the need for reprogramming.
+The competition is a simulation-based contest designed to encourage robot agility research, as well as facilitate technology transfer. The competition has completed its second year and awarded over $17,000 worth of prize money to the winners. We had over 50 teams register for the competition. Additional information regarding the competition can be found at www.nist.gov/ariac.
+The objectives of the AAAI workshop are: Describe the overall goal of the competition, how it was implemented, and information about the teams that participated; Describe the ARIAC simulation environments, challenges, and metrics; Present results from the competition and associated findings; Best performing teams to describe their approaches to address the challenges; Opportunity for all teams to describe their approaches and get feedback, through poster presentations; Lessons learned from the competition and get feedback from the participants; Determine the direction for future competitions though presentations from industry and feedback from the community; Provide a forum for other teams to get involved, learning from existing teams and get trained on the software via a hands-on tutorial at the end of the workshop.
+Topics
+Topics of interest include robot agility, robot error recovery, dynamic replanning, simulation, gazebo, robot planning and control, and robot operating system (ROS).
+Workshop Duration and Format
+This one-day workshop will be a mix of presentations from the participating teams, invited talks from industry representatives, and general discussion about the potential future direction of the ARIAC Competitions.
+Submissions
+Please see the supplemental website for submission instructions. Submissions should be directed to:
+Workshop Chair Anthony Downs National Institute of Standards and Technology (NIST) 100 Bureau Drive, Stop 8230 Gaithersburg, MD 20877 Phone: 1-301-975-3436 Fax: 1-301-990-9688 Email: anthony.downs@nist.gov
+Organizing Committee
+Dr. William Harrison, Anthony Downs (Main) , Craig Schlenoff (National Institute of Standards and Technology (NIST))
+Additional Information
+Workshop URL: http://www.nist.gov/ariac
+
+W03 Artificial Intelligence for Cyber Security (AICS)
+The Artificial Intelligence for Cyber Security workshop will address AI technologies and their applications, such as machine learning, game theory, natural language processing, knowledge representation, automated and assistive reasoning, and human machine interactions. AICS 2019 will emphasize research and applications of techniques to attack and defend machine learning systems (a.k.a. adversarial learning), especially in the context of cyber security.
+Machine learning capabilities have recently been shown to offer astounding ability to automatically analyze and classify large amounts of data in complex scenarios, in many cases matching or surpassing human capabilities. However, it has also been widely shown that these same algorithms are vulnerable to attacks, known as adversarial learning attacks, which can cause the algorithms to misbehave or reveal information about their inner workings. In general, attacks take three forms: 1) data poisoning attacks inject incorrectly or maliciously labeled data points into the training set so that the algorithm learns the wrong mapping, 2) evasion attacks perturb correctly classified input samples just enough to cause errors in classification, and 3) inference attacks that repeatedly test the trained algorithm with edge-case inputs in order to reveal the previously hidden decision boundaries. As machine learning-based AI capabilities become incorporated into facets of everyday life, including protecting cyber assets, the need to understand adversarial learning and address it becomes clear.
+Challenge Problem *
+This year we are asking the AI for cyber security community to submit solutions to a challenge problem focused on solving an adversarial attack scenario based on redacted data. For complete information about the challenge problem, please see http://www-personal.umich.edu/~arunesh/AICS2019/challenge.html.
+Understanding and addressing challenges of adversarial learning requires collaboration between several different research and development communities, including the AI, cyber security, game theory, machine learning, and formal reasoning communities. AICS is structured to encourage a lively exchange of ideas between researchers in these communities.
+* Challenge Problem sponsored by Crowdstrike
+Submissions
+Submissions are due by November 5, 2018 and can take one of two forms (up to 8 pages in AAAI format):
+
+Full-length papers
+Challenge problem papers
+
+Organizing Committee
+William W. Streilein (MIT Lincoln Laboratory, MA, USA), David R. Martinez (MIT Lincoln Laboratory, MA, USA), Howard Shrobe (MIT/CSAIL, MA, USA), Arunesh Sinha (University of Michigan, MI, USA), Jason Matterer (MIT Lincoln Laboratory, MA, USA)
+Administrative Contact: Brent Cassella, brent.cassella@ll.mit.edu
+Additional Information
+Workshop URL: http://www-personal.umich.edu/~arunesh/AICS2019
+
+W04 Artificial Intelligence Safety (SafeAI 2019)
+Safety in Artificial Intelligence (AI) should not be an option, but a design principle. However, there are different levels of safety, different ethical standards and values, and different degrees of liability, for which we face trade-offs or alternative solutions. These choices can only be analyzed holistically if we integrate the technological and the ethical perspectives into the engineering problem, and consider both the theoretical and practical challenges for AI safety. This view must cover a wide range of AI paradigms, including systems that are specific for a particular application, and also those that are more general, and can lead to unanticipated potential risks. We must also bridge short-term with long-term issues, idealistic with pragmatic solutions, operational with policy issues, and industry with academia, to really build, evaluate, deploy, operate and maintain AI-based systems that are truly safe.
+This workshop seeks to explore new ideas on AI safety with particular focus on addressing the following questions:
+
+What is the status of existing approaches in ensuring AI and Machine Learning (ML) safety and what are the gaps?
+How can we engineer trustable AI software architectures?
+How can we make AI-based systems more ethically aligned?
+What safety engineering considerations are required to develop safe human-machine interaction?
+What AI safety considerations and experiences are relevant from industry?
+How can we characterize or evaluate AI systems according to their potential risks and vulnerabilities?
+How can we develop solid technical visions and new paradigms about AI Safety?
+How do metrics of capability and generality, and the trade-offs with performance affect safety?
+
+The main interest of the proposed workshop is to look holistically at AI and safety engineering, jointly with the ethical and legal issues, to build trustable intelligent autonomous machines.
+Topics
+Contributions are sought in (but are not limited to) the following topics:
+
+Safety in AI-based system architectures
+Continuous V&V and predictability of AI safety properties
+Runtime monitoring and (self-)adaptation of AI safety
+Accountability, responsibility and liability of AI-based systems
+Effect of uncertainty in AI safety
+Avoiding negative side effects in AI-based systems
+Role and effectiveness of oversight: corrigibility and interruptibility
+Loss of values and the catastrophic forgetting problem
+Confidence, self-esteem and the distributional shift problem
+Safety of Artificial General Intelligence (AGI) systems and the role of generality
+Reward hacking and training corruption
+Self-explanation, self-criticism and the transparency problem
+Human-machine interaction safety
+Regulating AI-based systems: safety standards and certification
+Human-in-the-loop and the scalable oversight problem
+Evaluation platforms for AI safety
+AI safety education and awareness
+Experiences in AI-based safety-critical systems, including industrial processes, health, automotive systems, robotics, critical infrastructures, among others
+
+Format
+To deliver a truly memorable event, we will follow a highly interactive format that will include invited talks and thematic sessions. The thematic sessions will be structured into short pitches and a common panel slot to discuss both individual paper contributions and shared topic issues. Three specific roles are part of this format: session chairs, presenters and paper discussants. The workshop will be organized as a full day meeting.
+Attendance is open to all. At least one author of each accepted submission must be present at the workshop.
+Submissions
+You are invited to submit short position papers (2-4 pages), full technical papers (6-8 pages) or proposals of technical talk (up one-page abstract). Manuscripts must be submitted as PDF files via EasyChair online submission system: https://easychair.org/conferences/?conf=SafeAI2019
+Please keep your paper format according to AAAI Formatting Instructions (two-column format). The AAAI author kit can be downloaded from: https://www.aaai.org/Publications/Templates/AuthorKit19.zip
+Papers will be peer-reviewed by the Program Committee (2-3 reviewers per paper). The workshop follows a single-blind reviewing process. However, we will also accept anonymized submissions.
+Chairs
+Mauricio Castillo-Effen (Lockheed Martin, USA), Huscar Espinoza (CEA LIST, France), Sen  higeartaigh (University of Cambridge, UK), Xiaowei Huang (University of Liverpool, UK), Jos Hernndez-Orallo (Universitat Politcnica de Valncia, Spain)
+For a full listing of the program committee, please refer to the supplemental workshop website.
+Additional Information
+Workshop URL: http://www.safeai2019.org
+
+W05 Dialog System Technology Challenge (DSTC7)
+DSTC, the Dialog System Technology Challenge, has been a premier research competition for Dialog Systems since its inception in 2013. This workshop is the 7th edition in the series of DSTC challenges. In 2018, DSTC6 shifted the focus to end-to-end dialog tasks, in order to explore the issue of applying end-to-end technologies to Dialog Systems in a pragmatic way. Given the remarkable success of the first six editions of DSTC, we are organizing the seventh edition of DSTC this year.
+DSTC7 has the following three tracks:
+1) Noetic End-to-End Response Selection
+Organized by Lazaros Polymenakos and Chulaka Gunasekara (IBM Research AI, USA), and Walter S. Lasecki and Jonathan K. Kummerfeld (University of Michigan, USA)
+This challenge consists of sub-tasks on two datasets, one focused but small (course advising) and the other more diverse but large (Ubuntu support). In each, participants select the correct next utterances from a set of candidates and even indicate that none of the proposed utterances is a good candidate. The objective is to push utterance classification towards real world problems.
+2) End-to-End Conversation Modeling: Moving beyond Chitchat  Sentence Generation
+Organized by Michel Galley, Chris Brockett, Bill Dolan, and Jianfeng Gao (Microsoft AI&R)
+This track proposes an end-to-end conversational modeling task, where the goal is to generate conversational responses that go beyond chitchat, by injecting informational responses that are grounded in external knowledge.
+3) Audio Visual Scene-Aware Dialog (AVSD)
+Organized by Chiori Hori and Tim K. Marks (Mitsubishi Electric Research Laboratories), and Devi Parikh and Dhruv Batra (Georgia Tech School of Interactive Computing)
+This track proposes an end-to-end audio-visual scene-aware dialog system, where the goal is to understand scenes in order to have conversations with the users about the objects and events around them.
+For the final evaluation, the test sets will be provided on September 10 and the results will be submitted by October 1. Currently roughly 190 participants are registered for DSTC7. We will have a one-day wrap-up workshop at AAAI-19 to review the state-of-the-art systems, share novel approaches to the DSTC7 tasks, and discuss future directions for dialog technology. We will invite system papers reporting the systems submitted to DSTC7, general technical papers for end-to-end dialog technologies and keynote speakers who have developed cutting-edge approaches to data-driven dialog systems. You can find the information of the previous workshop, DSTC6, at http://workshop.colips.org/dstc6/.
+Organizing Committee
+Workshop Chair: Chiori Hori (Mitsubishi Electric Research Laboratories (MERL), USA) Challenge Chair: Koichiro Yoshino (Nara Institute of Science and Technology (NAIST), Japan) Publication Chair: Julien Perez (Naver Labs Europe, France) Publicity Chair: Luis Fernando DHaro )Technical University of Madrid, Spain)
+Contact information: dstc7-organizer@is.naist.jp
+Additional Information Workshop URL: http://workshop.colips.org/dstc7/
+
+W06 Engineering Dependable and Secure Machine Learning Systems
+Nowadays, machine learning solutions are widely deployed. Like other systems, ML systems must meet quality requirements. However, ML systems may be non-deterministic; they may re-use high-quality implementations of ML algorithms; and, the semantics of models they produce may be incomprehensible. Consequently, standard notions of software quality and reliability such as deterministic functional correctness, black box testing, code coverage, and traditional software debugging become practically irrelevant for ML systems. This calls for novel methods and new methodologies and tools to address quality and reliability challenges of ML systems.
+In addition, broad deployment of ML software in networked systems inevitably exposes the ML software to attacks. While classical security vulnerabilities are relevant, ML techniques have additional weaknesses, some already known (e.g., sensitivity to training data manipulation), and some yet to be discovered. Hence, there is a need for research as well as practical solutions to ML security problems.
+With these in mind, this workshop solicits original contributions addressing problems and solutions related to dependability, quality assurance and security of ML systems. The workshop combines several disciplines, including ML, software engineering (with emphasis on quality), security, and algorithmic game theory. It further combines academia and industry in a quest for well-founded practical solutions.
+Topics
+Topics of interest include, but are not limited, to the following:
+
+Software engineering aspects of ML systems and quality implications
+Testing and debugging of ML systems
+Quality implication of ML algorithms on large-scale software systems
+Case studies that highlight quality issues of ML solutions
+Correctness of data abstraction, data trust
+ML techniques to meet security and quality
+Size of the training data, implied guaranties
+Application of classical statistics to ML systems quality
+Sensitivity to data distribution diversity and distribution drift
+The effect of labeling costs on solution quality (semi-supervised learning)
+Reliable transfer learning
+Vulnerability, sensitivity and attacks against ML
+Adversarial ML and adversary-based learning models
+Strategy-proof and stable ML algorithms
+
+Submissions
+We solicit original papers in two formats  full (8 pages) and short (4 pages, work in progress), in AAAI format. Submission is via EasyChair at the URL below. All authors of accepted papers will be invited to participate. The workshop will include paper presentation sessions. Full papers are allocated 20m presentation and 10m discussion. Short papers 10-minute presentation, plus 5-minute discussion. The last session will be a panel discussion.
+Submission site: https://easychair.org/conferences/?conf=edsmls2019
+Workshop Chairs
+Eitan Farchi (IBM Research, Haifa, farchi@il.ibm.com), Onn Shehory (Bar Ilan University, onn.shehory@biu.ac.il)
+Additional Information
+Workshop URL: https://sites.google.com/view/edsmls2019/home
+
+W07 Games and Simulations for Artificial Intelligence
+Over the past several years, games and simulations have become a powerful tool for AI research. They have become the default testing grounds for new algorithms thanks to platforms such as Mujoco, Arcade Learning Environment, OpenAI Gym, VizDoom, DeepMind Lab, Facebook House3D, Allen Institute AI2-Thor, Microsoft AirSim, and Unity ML-Agents toolkit. Additionally, they are a mechanism for generating large amounts of training data for learning complex models for tasks such as 3D pose estimation, physics modeling, natural language instruction following, embodied question answering and robotics. Due to the physical and visual realism of several of these platforms, complex models can be trained in a virtual setting and then transferred to an agent or robot in the real world with minor fine-tuning. Recent examples include learning dexterous manipulation behaviors for a robotic hand and training self-driving cars.
+This workshop aims to bring together researchers across artificial intelligence interested in the use of games and simulation platforms. This includes the creation of platforms, environments, data sets or benchmarks; novel tasks and algorithms that leverage those platforms; adapting models learned within those platforms for the real world where applicable.
+Topics
+We invite high-quality paper submissions on topics including, but not limited to, the following:
+
+Novel simulation platforms, data sets and challenges for evaluating algorithms. This includes games and environments with physical and visual-realism.
+Mechanisms for learning synthetic data set generation
+Novel tasks that can be solved using simulation platforms
+Algorithms for learning from large data sets generated by simulation platforms. This includes distributed algorithms that can leverage multiple simulation instances.
+Mechanisms for minimizing the reality gap between simulations and the real world. This can be due to better adaptations and fine-tuning or enabling more realistic simulation environments.
+
+Format
+The workshop will be a full-day and will include a mix of invited speakers, peer-reviewed papers (talks and poster sessions) and will conclude with a panel discussion.
+Attendance
+Attendance is open to all; at least one author of each accepted submission must be present at the workshop.
+Submissions
+EasyChair Submission URL: https://easychair.org/conferences/?conf=gamesim2019
+Submissions of technical papers can be up to 8 pages excluding references and appendices. Short or position papers of 2 to 4 pages are welcome. All papers must be submitted in PDF format, using the AAAI author kit. Papers will be peer-reviewed and selected for oral or poster presentations at the workshop.
+Organizers
+Marwan Mattar (Unity Technologies; marwan@unity3d.com), Roozbeh Mottaghi (Allen Institute for Artificial Intelligence), Julian Togelius (NYU Game Innovation Lab), Danny Lange (Unity Technologies)
+Additional Information
+Workshop URL: https://www.gamesim.ai
+
+W08 Health Intelligence (W3PHIAI-19)
+Public health authorities and researchers collect data from many sources and analyze these data together to estimate the incidence and prevalence of different health conditions, as well as related risk factors. Modern surveillance systems employ tools and techniques from artificial intelligence and machine learning to monitor direct and indirect signals and indicators of disease activities for early, automatic detection of emerging outbreaks and other health-relevant patterns. To provide proper alerts and timely response public health officials and researchers systematically gather news, and other reports about suspected disease outbreaks, bioterrorism, and other events of potential international public health concern, from a wide range of formal and informal sources. Given the ever-increasing role of the World Wide Web as a source of information in many domains including healthcare, accessing, managing, and analyzing its content has brought new opportunities and challenges. This is especially the case for non-traditional online resources such as social networks, blogs, news feed, twitter posts, and online communities with the sheer size and ever-increasing growth and change rate of their data. Web applications along with text processing programs are increasingly being used to harness online data and information to discover meaningful patterns identifying emerging health threats. The advances in web science and technology for data management, integration, mining, classification, filtering, and visualization has given rise to a variety of applications representing real-time data on epidemics.
+Moreover, to tackle and overcome several issues in personalized healthcare, information technology will need to evolve to improve communication, collaboration, and teamwork between patients, their families, healthcare communities, and care teams involving practitioners from different fields and specialties. All of these changes require novel solutions and the AI community is well positioned to provide both theoretical- and application-based methods and frameworks. The goal of this workshop is to focus on creating and refining AI-based approaches that (1) process personalized data, (2) help patients (and families) participate in the care process, (3) improve patient participation, (4) help physicians utilize this participation in order to provide high quality and efficient personalized care, and (5) connect patients with information beyond those available within their care setting. The extraction, representation, and sharing of health data, patient preference elicitation, personalization of generic therapy plans, adaptation to care environments and available health expertise, and making medical information accessible to patients are some of the relevant problems in need of AI-based solutions.
+Topics
+The workshop will include original contributions on theory, methods, systems, and applications of data mining, machine learning, databases, network theory, natural language processing, knowledge representation, artificial intelligence, semantic web, and big data analytics in web-based healthcare applications, with a focus on applications in population and personalized health. The scope of the workshop includes, but is not limited to, the following areas:
+
+Knowledge representation and extraction
+Integrated health information systems
+Patient education
+Patient-focused workflows
+Shared decision making
+Geographical mapping and visual analytics for health data
+Social media analytics
+Epidemic intelligence
+Predictive modeling and decision support
+Semantic web and web services
+Biomedical ontologies, terminologies, and standards
+Bayesian networks and reasoning under uncertainty
+Temporal and spatial representation and reasoning
+Case-based reasoning in healthcare
+Crowdsourcing and collective intelligence
+Risk assessment, trust, ethics, privacy, and security
+Sentiment analysis and opinion mining
+Computational behavioral/cognitive modeling
+Health intervention design, modeling and evaluation
+Online health education and e-learning
+Mobile web interfaces and applications
+Applications in epidemiology and surveillance (for example, bioterrorism, participatory surveillance, syndromic surveillance, population screening)
+
+Format
+The workshop will be one and a half days consisting of a welcome session, keynote and invited talks, full/short paper presentations, demos, posters, and a panel discussion.
+Submissions
+We invite researchers and industrial practitioners to submit their original contributions following the AAAI format through EasyChair (https://easychair.org/conferences/?conf=w3phiai19). Three categories of contributions are sought: full-research papers up to 8 pages; short papers up to 4 pages; and posters and demos up to 2 pages.
+Organizing Committee
+Arash Shaban-Nejad, Co-chair, (The University of Tennessee Health Science Center  Oak-Ridge National Lab (UTHSC-ORNL) Center for Biomedical Informatics, ashabann@uthsc.edu); Martin Michalowski, Co-chair, (University of Minnesota  Twin Cities, martinm@umn.edu); Szymon Wilk, (Poznan University of Technology); David L. Buckeridge, (McGill University); John S. Brownstein, (Boston Childrens Hospital, Harvard University); Byron C. Wallace, (Northeastern University); Michael J. Paul, (The University of Colorado Boulder)
+Additional Information
+Workshop URL: http://w3phiai2019.w3phi.com/
+
+W09 Knowledge Extraction from Games
+Knowledge Extraction from Games (KEG) is a workshop exploring questions of and approaches to the automated extraction of knowledge from games. We use knowledge in the broadest possible sense, including but not limited to design patterns, game rules, character graphics, environment maps, music and sound effects, high-level goals or heuristic strategies, transferable skills, aesthetic standards and conventions, or abstracted models of games.
+Games can be understood as simplified models of aspects of reality. They therefore provide useful structuring information for reasoning tasks and provide interesting environments for knowledge extraction and specification recoveryenvironments like video games, board games, and informal simulations of reality. For example, tasks like quadcopter control and stock market analysis can be understood as games.
+Topics
+Some examples of work that would be appropriate for KEG include:
+
+Contextual query-answering in games where non-player characters (or visual cues in environment design) offer hints to solve problems
+Extracting architectural information from game level layouts
+Transfer learning, analogical reasoning, or goal reasoning within or between games or game levels
+Game-playing agents which can explain their own actions or policy in terms of the games rules
+Learning the rules of a game from observation, or learning higher-level rules or goals automatically
+
+KEG unifies these research areas and communities whose goals overlap but whose work mostly proceeds in parallelplanning, general (video) game playing, knowledge representation and reasoning, knowledge extraction, goal reasoning, computer-aided design, and others.
+We also hope to include subject experts in game design and criticism; their deep knowledge of the creation and analysis of these highly emergent dynamical systems could inform knowledge representation and problem formulation.
+Submissions
+KEG will accept a mix of two types of papers (references are not counted against page limits): Full papers are 6-8 pages and are expected to be accompanied by some evaluation or formal proof. Short papers are up to 4 pages, showing promising new directions, nascent ideas, or new applications of existing work. We encourage authors to take whatever space they need; papers will be judged on the merit of their ideas, not length.
+KEG 2019 is dedicated to a harassment-free workshop experience for everyone. Our anti-harassment policy can be found on our website.
+Organizing Committee
+Joseph C. Osborn (Pomona College), Samuel Snodgrass (Drexel University), Matthew Guzdial (Georgia Institute of Technology)
+Additional Information
+Workshop URL: https://sites.google.com/view/kegworkshop/
+
+W10 Network Interpretability for Deep Learning
+This workshop aims to bring together researchers, engineers, students in both academic and industrial communities who are concerned about the interpretability of deep learning models and, more importantly, the safety of applying these complex deep models in critical applications, such as the medical diagnosis and the autonomous driving. Efforts along this direction are expected to open the black box of deep neural networks for better understanding and to build more transparent deep models that are interpretable to humans. Therefore, the main theme of the workshop is to build up consensus on the emerging topic of the network interpretability, by clarifying the motivation, the typical methodologies, the prospective trends, and the potential industrial applications of the network interpretability.
+Topics
+Topics of interest include but are not limited to:
+
+Theories of deep neural networks
+Visualization of neural networks
+Diagnosing and disentangling feature representations of neural networks
+Learning representations for neural networks which are interpretable, disentangled and/or compact
+Improving interpolation capacity of features for generative models.
+Probabilistic logic interpretation of deep learning
+Bridging feature representations between visual concepts and linguistic concepts.
+Safety and fairness of the deep learning models
+Industrial applications of interpretable deep neural networks
+Evaluation of the interpretability of neural networks
+
+Format
+The one-day workshop will include invited talks, oral and poster presentations of accepted papers, as well as panel discussions.
+Attendance
+The workshop welcomes scientists, engineers, and students in both academic and industrial communities who are interested in the interpretability of deep learning techniques and, more importantly, the safety of the complex deep learning models.
+Submissions
+We invite extended abstracts with 2  4 pages and full submissions with 6  8 pages. All the accepted papers will be published as workshop proceedings on arXiv.org. Please submit papers to networkinterpretability@gmail.com.
+Organizing Committee
+Quanshi Zhang (Shanghai Jiao Tong University and UCLA, zqs1022@sjtu.edu.cn), Lixin Fan (Nokia Technologies, lixin.fan@nokia.com), Bolei Zhou (Chinese University of Hong Kong and MIT, bzhou@csail.mit.edu)
+Additional Information
+Workshop URL: http://networkinterpretability.org
+
+W011 Plan, Activity, and Intent Recognition (PAIR 2019)
+Plan recognition, activity recognition, and intent recognition all involve making inferences about other actors from observations of their behavior, i.e., their interaction with the environment and with each other. The observed actors may be software agents, robots, or humans. This synergistic area of research combines and unifies techniques from user modeling, machine vision, automated planning, intelligent user interfaces, human/computer interaction, autonomous and multi-agent systems, natural language understanding, and machine learning. It plays a crucial role in a wide variety of applications including: assistive technology, software assistants, computer and network security, behavior recognition, coordination in robots and software agents, and more.
+This workshop seeks to bring together researchers and practitioners from diverse backgrounds, to share ideas and recent results. It aims to identify important research directions, opportunities for synthesis and unification of representations and algorithms for recognition.
+Topics
+Contributions are sought in the following areas:
+
+Algorithms for plan, activity, intent, or behavior recognition
+Machine learning and uncertain reasoning for plan recognition and user modeling
+Hybrid probabilistic and logical approach to plan and intent recognition
+Modeling users and intents on the web and in intelligent user interface
+Modeling users and intents in speech and natural language dialogue
+High-level activity and event recognition in video
+Algorithms for intelligent proactive assistance
+Modeling multiple agents, modeling teams and collaboration teamwork
+Modeling social interactions and social network analysis
+Adversarial planning, opponent modeling
+Intelligent tutoring systems (ITS)
+Programming by demonstration
+Cognitive models of intent recognition
+Inferring emotional states
+
+Related contributions in other fields, are also welcome.
+Format
+This years workshop will be centered around the past and future of PAIR. This will include an introspection of previous approaches and a group discussion about the future directions and vision for the community.
+Submissions
+We welcome submissions describing either relevant work or proposals for discussion topics that will be of interest to the workshop. Submissions are accepted in PDF format only, using the AAAI-19 formatting guidelines. Submissions must be no longer than 8 pages in length, with the last page including only references and figures. Submissions are anonymous, and must conform to the AAAI-19 instructions for double-blind review. Submission will be accepted through EasyChair, at the following link: https://easychair.org/conferences/?conf=pair19
+Questions about submissions can be emailed to sarah.e.keren@gmail.com.
+Cochairs
+Sarah Keren (primary contact) (Harvard University, sarah.e.keren@gmail.com or skeren@seas.harvard.edu), Reuth Mirsky (primary contact) (Ben-Gurion University, dekelr@post.bgu.ac.il), Christopher Geib (SIFT LLC, cgeib@sift.net)
+Additional Information
+Workshop URL: http://www.planrec.org/PAIR/Resources.html
+
+W12 Reasoning and Learning for Human-Machine Dialogues (DEEP-DIAL 2019)
+Natural conversation is a hallmark of intelligent systems. Unsurprisingly, dialog systems have been a key sub-area of AI for decades. Their most recent form, chatbots, which can engage people in natural conversation and are easy to build in software, have been in the news a lot lately. There are many platforms to create dialogs quickly for any domain based on simple rules. Further, there is a mad rush by companies to release chatbots to show their AI capabilities and gain market valuation. However, beyond basic demonstration, there is little experience in how they can be designed and used for real-world applications needing decision making under practical constraints of resources and time (e.g., sequential decision making) and being fair to people chatbots interact with. The workshop is a follow-up to the highly successful first AAAI Workshop on Reasoning and Learning for Human-Machine Dialogues (DEEP-DIAL 2018; https://sites.google.com/view/deep-dial-2019/), held in New Orleans, USA in Feb 2018 which attracted over hundred participants. The workshop series is timely to help chatbots realize their full potential.
+Moreover, there is increasing interest and need for innovation in human-technology-interaction as addressed in the context of companion technology. Here, the aim is to implement technical systems that smartly adapt their functionality to their users individual needs and requirements and are even able to solve problems in close co-operation with human users. To this end, they need to enter into a dialog and should be able to convincingly explain their suggestions and their decision-making behavior.
+From research side, statistical and machine learning methods are well entrenched for language understanding and entity detection. However, the wider problem of dialog management is unaddressed with mainstream tools supporting rudimentary rule-based processing. There is an urgent need to highlight the crucial role of reasoning methods, like constraints satisfaction, planning and scheduling, and learning working together with them, can play to build an end-to-end conversation system that evolves over time. From practical side, conversation systems need to be designed for working with people in a manner that they can explain their reasoning, convince humans about choices among alternatives, and can stand up to ethical standards demanded in real life settings.
+Topics
+With these motivations, some areas of interest for the workshop, but not limited to, are:
+
+Dialog Systems
+
+Design considerations for dialog systems
+Evaluation of dialog systems, metrics
+Open domain dialog and chat systems
+Task-oriented dialogs
+Style, voice and personality in spoken dialogue and written text
+Novel Methods for NL Generation for dialogs
+Early experiences with implemented dialog systems
+Mixed-initiative dialogs where a partner is a combination of agent and human
+Hybrid methods
+
+
+Reasoning
+
+Domain model acquisition, especially from unstructured text
+Plan recognition in natural conversation
+Planning and reasoning in the context of dialog systems
+Handling uncertainity
+Optimal dialog strategies
+
+
+Learning
+
+Learning to reason
+Learning for dialog management
+End2end models for conversation
+Explaining dialog policy
+
+
+Practical Considerations
+
+Responsible chatting
+Ethical issues with learning and reasoning in dialog systems
+Corpora, Tools and Methodology for Dialogue Systems
+Securing ones chat
+
+
+
+The intended audience includes students, academic researchers and practitioners with an industrial background from the AI sub-areas of dialog systems, natural language processing, learning, reasoning, planning, HCI, ethics and knowledge representation.
+Submissions
+Papers must be formatted in AAAI two-column, camera-ready style (AAAI style files are at: http://www.aaai.org/Publications/Templates/AuthorKit19.zip). Regular research papers may be no longer than 7 pages, where page 7 must contain only references, and no other text whatsoever. Short papers, which describe a position on the topic of the workshop or a demonstration/tool, may be no longer than 4 pages, references included. Papers should be submitted via EasyChair at the following URL: https://easychair.org/conferences/?conf=deepdial19
+Important Dates
+This workshop will follow a slightly different schedule: November 01, 2018: Workshop paper submissions due November 20, 2018: Notification to authors November 30, 2018: Camera-ready copies of authors papers
+Organizing Committee
+Biplav Srivastava (IBM Research, USA), Susanne Biundo (University of Ulm, Germany), Ullas Nambiar (Zensar Labs, India), Imed Zitouni (Microsoft AI+R, USA)
+Additional Information
+Workshop URL:https://sites.google.com/view/deep-dial-2019/
+
+W13 Reasoning for Complex Question Answering
+Question Answering (QA) has become a crucial application problem in evaluating the progress of AI systems in the realm of natural language processing and understanding, and to measure the progress of machine intelligence in general. The computational linguistics communities (ACL, NAACL, EMNLP et al.) have devoted significant attention to the general problem of machine reading and question answering, as evidenced by the emergence of strong technical contributions and challenge datasets such as SQuAD. However, most of these advances have focused on shallow QA tasks that can be tackled very effectively by existing retrieval-based techniques. Instead of measuring the comprehension and understanding of the QA systems in question, these tasks test merely the capability of a technique to attend or focus attention on specific words and pieces of text.
+To better align progress in the field of QA with the expectations that we have of human performance and behavior when solving such tasks, a new class of questions  known as complex or challenge questions  has been proposed. The definition of complex questions varies, but they can most generally be thought of as instances that require intelligent behavior and reasoning on the part of an agent to solve. Such reasoning may also include the systematic retrieval of knowledge from semi-structured and structured sources such as documents, webpages, tables, knowledge graphs etc.; and the exploitation of domain models in generalized representations that are learned from available data. As the knowledge as well as the questions themselves become more complex and specialized, the process of understanding and answering these questions comes to resemble human expertise in specialized domains. Current examples of such complex question answering (CQA) tasks  where humans presently rule the roost  include customer service and support, standardized testing in education, and domain-specific consultancy services such as legal advice, etc.
+The main aim of this workshop is to bring together experts from the computational linguistics (CL) and AI communities to: (1) catalyze progress on the CQA problem and create a vibrant test-bed of problems for various AI sub-fields; and (2) present a generalized task that can act as a harbinger of progress in AI.
+Submissions
+We solicit submissions in the form of papers (short and long), posters, demos, panel ideas, and other suggestions. A submission site will be available soon; in the meantime, suggestions on topics or programs to include in the workshop may be emailed to Kartik Talamadupula (krtalamad@us.ibm.com).
+Organizing Committee
+Kartik Talamadupula (IBM), Michael Witbrock (IBM), Peter Clark (Allen Institute for Artificial Intelligence), Rajarshi Das (University of Massachusetts Amherst), Mausam (Indian Institute of Technology Delhi)
+Additional Information
+Workshop URL: http://ibm.biz/complexqa
+
+W14 Recommender Systems Meet Natural Language Processing (RecNLP)
+RecNLP is an interdisciplinary workshop covering the intersection between Recommender Systems (RecSys) and Natural Language Processing (NLP). The primary goal of RecNLP is to identify common ideas and techniques that are being developed in both disciplines, and to further explore the synergy between the two and to bring together researchers from both domains to encourage and facilitate future collaborations.
+Topics
+We encourage theoretical, experimental, and methodological developments advancing state-of-the-art knowledge at the intersection between RecSys and NLP. Areas of interest include, but are not limited to:
+
+Applications that inherently combine RecSys and NLP. E.g., using textual reviews for improving recommendations
+Using NLP techniques for RecSys. E.g., considering recommendations as a language modeling problem.
+Using RecSys techniques for NLP. E.g., personalization of sentiment analysis.
+
+Format
+The workshop is composed of invited talks and oral talks of refereed papers, where we allow time for fruitful discussion in the end of each talk. Workshop duration is half a day.
+Submissions
+RecNLP is a venue for discussion, and as such we allow submission of manuscripts that have already been published or are currently under review, as well as original submissions. The ideal length of a paper is between 4-8 pages, but there are no strict page limits. Already-published papers should be accompanied by a short abstract justifying their specific relevance to RecNLP. Manuscripts must be submitted through easychair and will be reviewed by a program committee. The review process is single-blind. That is, authors names should not be anonymized. Submissions will be accepted via EasyChair at the following site: https://easychair.org/conferences/?conf=recnlp2019
+Organizing Committee
+Oren Sar Shalom (Intuit, oren_sarshalom@intuit.com), Vahid Noroozi (University of Illinois at Chicago, vnoroo2@uic.edu), Mengting Wan (UC San Diego, m5wan@ucsd.edu), Julian McAuley (UC San Diego, jmcauley@ucsd.edu)
+Additional Information
+Workshop URL: https://recnlp2019.github.io
+
+W15 Reinforcement Learning in Games (RLG)
+Games provide an abstract and formal model of environments in which multiple agents interact: each player has a well-defined goal and rules to describe the effects of interactions among the players. The first achievements in playing these games at super-human level were attained with methods that relied on and exploited domain expertise that was designed manually (e.g. chess, checkers). In recent years, we have seen examples of general approaches that learn to play these games via self-play reinforcement learning (RL), as first demonstrated in Backgammon. While progress has been impressive, we believe we have just scratched the surface of what is capable, and much work remains to be done in order to truly understand the algorithms and learning processes within these environments.
+The main objective of the workshop is to bring researchers together to discuss ideas, preliminary results, and ongoing research in the field of reinforcement in games.
+Topics
+We invite participants to submit papers, based on but not limited to, the following topics: RL in various formalisms: one-shot games, turn-based, and Markov games, partially-observable games, continuous games, cooperative games; deep RL in games; combining search and RL in games; inverse RL in games; foundations, theory, and game-theoretic algorithms for RL; opponent modeling; analyses of learning dynamics in games; evolutionary methods for RL in games; RL in games without the rules.
+Format
+RLG is a one-day workshop. It will start with a 60-minute mini-tutorial covering a brief tour of the history and basics of RL in games, 2-3 invited talks by prominent contributors to the field, paper presentations, a poster session, and will close with a discussion panel.
+Submissions
+Papers must between 4-8 pages in the AAAI submission format, with the eighth page containing only references. Papers will be submitted electronically using Easychair. Accepted papers will not be archival, and we explicitly allow papers that are concurrently submitted to, currently under review at, or recently accepted in other conferences / venues.
+Organizing Committee
+Marc Lanctot (DeepMind, lanctot@google.com), Julien Perolat (DeepMind, perolat@google.com), Martin Schmid (DeepMind, mschmid@google.com)
+Additional Information
+Workshop URL: http://aaai-rlg.mlanctot.info/
+
+W16 Reproducible AI
+Artificial intelligence, like any science, must rely on reproducible experiments to validate results. Still, reproducing results from research in AI is not easily accomplished. This may be because AI research has its own unique reproducibility challenges. These are related to the use of analytical methods that are still a focus of active investigation and problems due to non-determinism in standard benchmark environments and variance intrinsic to AI methods. Acknowledging these difficulties, AI research should be documented properly so that the experiments and results are clearly described.
+In this workshop, we aim to create a forum to make a roadmap for improving the reproducibility of research result presented at future AAAI conferences and other AAAI publications.
+Topics
+We are particularly interested in submissions that report on efforts to reproduce papers accepted for presentation at AAAI-19. Papers from earlier editions of the conference are also welcome. These submissions could be from the authors of the original papers but could also come from others who endeavoured to reproduce the work. These submissions should document how the results of the original paper were reproduced, and discuss reproducibility challenges, lessons learned, and recommendations for best practices. We suggest following the recommendations presented here: http://www.idi.ntnu.no/~odderik/RAI-2019/On_Reproducible_AI-preprint.pdf.
+Any topics related to reproducible AI are welcome, including position papers, surveys, recommendations, and comparisons of AI reproducibility with other fields of research. Our focus is especially on practical solutions for how to improve the reproducibility of research presented at AAAI.
+Relevant reading See suggested reading list here http://idi.ntnu.no/~odderik/RAI-2019/Suggested_readings.pdf.
+Format
+The workshop will last a full day and will consist of both oral and poster presentations, as well as panel and open discussion regarding how to make research results presented at AAAI reproducible.
+Submissions
+Each submission will be in the form of papers of up to 8-pages in length, using the main AAAI conference format. Authors may choose to anonymize their submissions or not. Papers should be submitted via EasyChair at the URL below. Oral presentations and poster session participants will be selected from the submissions.
+Submission URL: https://easychair.org/conferences/?conf=rai2019
+Workshop Chairs
+Yolanda Gil (University of Southern California), Odd Erik Gundersen (Norwegian University of Science and Technology), Satinder Singh (University of Michigan) and Joelle Pineau (McGill University)
+Additional Information
+Workshop URL: https://www.idi.ntnu.no/~odderik/RAI-2019/
+

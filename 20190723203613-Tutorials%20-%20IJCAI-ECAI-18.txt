@@ -1,0 +1,416 @@
+Tutorials - IJCAI-ECAI-18
+
+IJCAI-ECAI 2018 Accepted Tutorials and Schedule
+HALF-DAY TUTORIALS
+T01. Adversarial Machine Learning
+Battista Biggio and Fabio Roli
+View Abstract
+
+Machine-learning and data-driven AI techniques, including deep networks, are currently used in several applications, ranging from computer vision to computer security. In most of these applications, including spam and malware detection, the learning algorithm has to face intelligent and adaptive attackers who can carefully manipulate data to purposely subvert the learning process. As these algorithms have not been originally designed under such premises, they have been shown to be vulnerable to well-crafted, sophisticated attacks, including test-time evasion and training-time poisoning attacks (also known as adversarial examples). The problem of countering these threats and learning secure classifiers and AI systems in adversarial settings has thus become the subject of an emerging, relevant research field in the area of machine learning and AI safety called adversarial machine learning.The purposes of this tutorial are thus: (a) to introduce the fundamentals of adversarial machine learning to the AI community; (b) to illustrate the design cycle of a learning- based pattern recognition system for adversarial tasks; (c) to present novel techniques that have been recently proposed to assess performance of pattern classifiers and deep learning algorithms under attack, evaluate their vulnerabilities, and implement defense strategies that make learning algorithms more robust to attacks; and (d) to show some applications of adversarial machine learning to pattern recognition tasks like object recognition in images, biometric identity recognition, spam and malware detection.
+
+T02. AI for Social Good Design Hackathon Using Google-AIY Kits
+Tara Chklovski and Yolanda Gil
+View Abstract
+
+As AI becomes increasingly common in the home as well as the workplace, it can also seem increasingly threatening to those unfamiliar with the technology. When faced with projections about the impact of AI  like the World Economic Forum estimate that 65% of children entering primary school today will find careers in jobs that dont yet exist  many parents grow fearful or suspicious of that technology. Our goal is to help reduce this fear and encourage families and students to embrace and learn about the capabilities of technology, and specifically AI.And you can help! We want your ideas for exciting new content to teach AI to families using Googles AIY Voice and Vision kits. These exciting new kits allow people with little programming experience to actually modify and apply industry-level voice and vision recognition systems and quickly understand the power of AI tools.
+Here are some examples of project ideas that could be solved using the AIY kits:
+* Using Googles AIY Vision kit, build a machine that identifies what type of plastic a bottle is in order to sort recycling.
+* Using Googles AIY Vision kit, build a machine that can tell you what color something is to help someone that is color blind.
+* Using Googles AIY Voice kit, build a machine that can open a door based on a voice command to help someone that is disabled.
+* Using Googles AIY Voice kit, build a machine that can recognize a secret voice code and call a friend if you are in trouble.
+Why you should participate:
+* Most immediately, you will have an unique opportunity to work with an experienced team to use the Google AIY voice and vision kits to solve exciting problems
+* You will be able to take an AIY kit home!
+* Your ideas will be codified and introduced to children, parents and educators across 100+ countries through the worlds largest AI program for children.
+* Finally, using your creativity and expertise you can help us inspire and empower the next generation of AI inventors, scientists and engineers.
+As we only have a limited number of AIY voice and vision kits to give away, please register to secure your spot in this special tutorial!
+
+T03.Algorithmic Social Intervention
+Bryan Wilder and Yevgeniy Vorobeychik
+View Abstract
+
+Societies around the world face challenges of enormous scale: preventing and treating disease, shifting to renewable energy sources, confronting poverty, and a range of other issues impacting billions of people. In response, governments and communities deploy interventions addressing these problems (e.g., outreach campaigns to enroll patients in treatment or offering incentives for adopting renewable energy). However, such interventions are subject to limited resources and are deployed under considerable uncertainty about properties of the system; deciding manually on the best way to deploy an intervention is extremely difficult.At the same time, research in artificial intelligence has witnessed incredible growth, providing us with unprecedented computational tools with which to contribute to solving societal problems. This tutorial will introduce AI students and researchers to the use of algorithmic techniques to enhance the delivery of policy or community-level interventions aimed at addressing social challenges, an emerging area which we refer to as algorithmic social intervention. We will focus on four related sub-areas: social networks, epidemiology, safety analytics, and agent-based modeling. The tutorial will cover existing methodologies in these areas, highlight the connections and differences between them, and discuss open problems in both the development of new algorithmic techniques and deployment in real-world settings. The goal of this tutorial is to provide a unified view of computational methods for guiding social interventions and spark new research cutting across the sub-areas we cover.
+
+T04.Artificial Intelligence and the Law
+Adam Wyner
+View Abstract
+
+The research subfield of Artificial Intelligence and Law has existed for some 30 years. Yet, uptake in government, the legal industry, and legal professionals has been slow, which in turn has hindered research. However, recently, interest and activity has dramatically intensified and expanded owing to fundamental transformations in the legal services market, the open availability of legal data, and technologies to facilitate exploitation of the law, e.g. XML. An additional impact has been on training in law schools, where there is a new emphasis on learning to work with computational tools. Signaling the changes are numerous LegalTech startups, popular LegalTech meetings and groups, as well as new research and training centres in the US and Europe. Thus, there are new contexts, users, and materials for AI researchers to work on. While robo-lawyers are not in our immediate future (and there are some reasons to discourage fully automated legal reasoning in certain domains), AI interactive support for legal decision support is already in the pipelines.The tutorial is a brisk tour of the ways that AI techniques and tools have been applied to or are challenged by legal materials. It highlights the ways that AI and Law can deeply impact society. The tutorial leaves aside important issues of the law applied to technology, e.g. privacy rights in online transactions. The presentation is intended to stimulate students and researchers to have a look into AI and Law research and development, getting in at early stages.
+
+T05.Boosting Optimization via Machine Learning
+Michele Lombardi and Michela Milano
+View Abstract
+
+In the past few years, the area of Machine Learning has witnessed tremendous advancements and achievements, becoming a pervasive technology in a wide range of applications, from industrial domains to everyday-used apps. One area that can significantly benefit from the use of machine learning is combinatorial optimization. Modeling and solving, the two pillar activities for dealing with Constraint Satisfaction and Optimization Problems, can both Machine Learning techniques for boosting their accuracy, efficiency and effectiveness.In this tutorial we will show how Machine Learning techniques can be used to support the modeling activity by providing model components through machine learning; and to boost the search effectiveness, by understanding which parts of the search space are more promising, or by selecting the most suitable algorithm for a given problem from a portfolio of techniques. Connections with model predictive control and black box optimization will also be covered.
+
+T06.Computational Social Choice and Moral Artificial Intelligence
+Vincent Conitzer
+View Abstract
+
+Social choice is the theory of how to make decisions based on the preferences of multiple agents. Computational social choice is by now a well-established research area in multiagent systems, but more recently has also started to be applied to some of the thorniest problems regarding the societal impact of AI. How should AI make decisions with a moral component, when human beings cannot agree on what the right decisions are?In the first part of this tutorial, I will give an introduction to computational social choice (no previous background required). I will focus primarily on voting, but will also discuss related settings, in particular judgment aggregation.
+In the second part, I will discuss some problems in AI with a moral component. How should a self-driving car trade off risks between its occupants and others on the road? How (if at all) should we prioritize patients for the purpose of receiving an organ in a kidney exchange? I will discuss how techniques from computational social choice might be applied to these problems.
+
+T07.Deep Generative Models
+Aditya Grover and Stefano Ermon
+View Abstract
+
+Generative models are a key paradigm for probabilistic reasoning within graphical models and probabilistic programming languages. Recent advancements in parameterizing these models using neural networks and stochastic optimization using gradient-based techniques have enabled scalable modeling of high-dimensional data across a breadth of modalities and applications.The first half of this tutorial will provide a holistic review of the major families of deep generative models, including generative adversarial networks, variational autoencoders, normalizing flow models, and autoregressive models. For each of these models, we will discuss the probabilistic formulations, learning algorithms, and relationships with other models. The second half of the tutorial will demonstrate approaches for using deep generative models on a representative set of downstream inference tasks: semi-supervised learning, domain adaptation, and imitation learning. Finally, we will conclude with a discussion of the current challenges in the field and promising avenues for future research.
+
+T08.Deep Learning for AI
+Yoshua Bengio
+View Abstract
+There has been much progress in AI thanks to advances in deep learning in recent years, especially in areas such as computer vision, speech recognition, natural language processing, playing games, robotics, machine translation, etc. This tutorial aims at explaining some of the core concepts and motivations behind deep learning and representation learning. Deep learning builds on many of the ideas introduced decades earlier with the connectionist approach to machine learning, inspired by the brain. These essential early contributions include the notion of distributed representation and the back-propagation algorithm for training multi-layer neural networks, but also the architecture of recurrent neural networks and convolutional neural networks. In addition to the substantial increase in computing power and dataset sizes, many modern additions have contributed to the recent successes. These include techniques making it possible to train networks with more layers  which can generalize better (hence the name deep learning)  as well as a better theoretical understanding for the success of deep learning, both from an optimization point of view and from a generalization point of view. They also include advances in architectures which have moved neural nets from pattern recognition devices working on vectors to general-purpose differentiable modular machines which can handle arbitrary data structures, mostly thanks to the use of attention mechanisms. Two other areas of major progress have been in unsupervised learning, in particular the ability of neural networks to stochastically generate high-dimensional samples (like images) from a possibly conditional distribution, as well as the combination of reinforcement learning and deep learning techniques, not just for traditional applications of reinforcement learning like games, but also as a way to handle learning in systems involving non-differentiable or black-box components. The tutorial will end with a discussion of some major open problems for AI which are at the forefront of research in deep learning.
+T09.Defeasible Description Logics
+Ivan Varzinczak
+View Abstract
+
+This tutorial aims at providing an introduction to reasoning defeasibly over description logic ontologies in the context of knowledge representation and reasoning (KRR) in AI. Description Logics (DLs) are a family of logic-based knowledge representation formalisms with appealing computational properties and a variety of applications at the confluence of modern artificial intelligence and other areas. In particular, DLs are well-suited for representing and reasoning about ontologies and therefore constitute the formal foundations of the Semantic Web.The different DL formalisms that have been proposed in the literature provide us with a wide choice of constructors in the object language. However, these are intended to represent only classical, unquestionable knowledge, and are therefore unable to express the different aspects of uncertainty and vagueness that often show up in everyday life. Examples of these comprise the various guises of exceptions, typicality (and atypicality), approximations and many others, as usually encountered in the different forms of human quotidian reasoning. A similar argument can be put forward when moving to the level of entailment, that of the sanctioned conclusions from a knowledge base. DL systems provide for a variety of (standard and non-standard) reasoning services, but the underlying notion of entailment remains classical and therefore, depending on the application one has in mind, DLs inherit most of the criticisms raised in the development of the so-called non-classical logics. In this regard, endowing DLs and their associated reasoning services with the ability to cope with defeasibility is a natural step in their development. Indeed, the past two decades have witnessed the surge of many attempts to introduce non-monotonic reasoning capabilities in a DL setting. Among these are default extensions, preferential approaches, circumscription-based ones, and others.
+The goal of this tutorial is two-fold: (1) to provide an overview of the development of non-monotonic approaches to description logics from the past 25 years, in particular pointing out the difficulties that arise when navely transposing the traditional propositional approaches to the DL case, and (2) present the latest results in the area, in particular those based on the preferential approach and related ones, as well as the new directions for investigation that have been opened.
+
+T10.Imagination Machines
+Sridhar Mahadevan
+View Abstract
+
+This tutorial introduces into AI a new field called imagination science, which extends data science beyond its current realm of learning probability distributions from samples, or data summarization, to address a much broader palette of capabilities including counterfactual reasoning about impossible scenarios, analogical reasoning to extrapolate known experience to unknown environments, and automating creative activity that underlies problem invention, not mere problem solving. Numerous examples will be used in the tutorial to illustrate that human achievements in the arts, literature, poetry, and science lie beyond the realm of data science, because they require abilities that go beyond finding correlations: for example, generating samples from a novel probability distribution different from the one given during training; causal reasoning to uncover interpretable explanations; or analogical reasoning to generalize to novel situations (e.g., imagination in art, representing alien life in a distant galaxy, understanding a story about talking animals, or inventing representations to model the large-scale structure of the universe).The tutorial will describe a number of novel architectures that enable building imagination machines, and discuss connections between ongoing research in deep adversarial learning, causal reasoning, analogy and transfer learning and imagination. The tutorial will seek to demonstrate that the automation of imagination will transform AI in the coming decades.
+
+T11.Multiwinner Elections: Applications, Axioms, Algorithms, and Generalizations
+Piotr Faliszewski, Piotr Skowron, and Nimrod Talmon
+View Abstract
+In the standard model of multiwinner elections, the goal is to select a group of k individuals (the committee) based on the preferences of a number of agents (voters). While the most prominent example of multiwinner elections comes from the
+world of politics (parliamentary elections held in almost all modern democracies), they are widely present and include settings such as choosing other representative bodies (e.g., working groups to deal with particular issues), making various business decisions (e.g., choosing products for an Internet store to put on its homepage, choosing movies to put on a transatlantic flight), and shortlisting tasks (e.g., shortlisting applicants for a given academic position).In this tutorial we will present several emerging applications of multiwinner voting (including those mentioned above, but also, e.g., their use in genetic algorithms), a number of multiwinner voting rules, and a number of algorithms for computing them (there is a large research corpus on coping with the computational intractability of most rules). Based on their axiomatic properties and on simulation results, we will argue which rules are best-suited for each application. We will discuss other models of multiwinner elections and their generalizations, such as selecting committees with variable number of winners, producing proportional rankings, and participatory budgeting.
+T12.Musical Metacreation: AI for Generative Music
+Philippe Paquier
+View Abstract
+
+Musical Metacreation (MUME) involves using tools and techniques from artificial intelligence, artificial life, and machine learning, themselves often inspired by cognitive and life sciences, to endow machines with musical creativity. Concretely, the field brings together artists, practitioners and researchers interested in developing systems that autonomously (or interactively) recognize, learn, represent, compose, complete, accompany, or interpret musical data.This tutorial aims at introducing the field of musical metacreation and its current developments, promises, and challenges, with a particular focus on IJCAI-relevant aspects of the field. After a brief introduction to the field, its history, and some definitions of the problems addressed, the tutorial will focus on presenting the various AI and ML algorithms and architecture used in the design of generative music systems. The tutorial is illustrated by many examples of successful generative systems, and a review of the various evaluation methodologies, as well as applications of these systems in the creative industry.
+
+T13.Neural-symbolic Learning and Reasoning with Constraints
+Luis Lamb, Marco Gori, Artur Garcez, Luciano Serafini, and Michael Spranger
+View Abstract
+
+Recent developments in machine learning in general, and deep learning in particular have significantly increased the prominence and impact of AI in society. Following the great recent success of deep learning, attention has turned to neural artificial intelligence (AI) systems capable of harnessing knowledge as well as large amounts of data. Neural-symbolic integration has sought for many years to benefit from the integration of symbolic AI with neural computation that can lead to more versatile and explainable learning systems. Recently, constraints have been shown to offer a unifying theoretical framework for learning and reasoning. Constraints-based neural-symbolic computing (CBNSC) offers a methodology for unifying knowledge representation and machine learning. In this tutorial we will introduce the theory and practice of CBNSC using a recent computational implementation called Logic Tensor Networks (LTNs) implemented using Python and Googles Tensorflow.LTN are a logic-based formalism defined on a first-order language with fuzzy-logic semantics and individuals are interpreted in real feature vectors. LTN allows a well-founded integration of deductive logic based reasoning and efficient data-driven relational machine learning. LTN can be used for solving single ML tasks such as: multi-label classification, link prediction, features regression and any combination of them in a unified framework. LTNs have been successfully applied to semantic image interpretation and natural language processing (NLP) tasks. The tutorial will give a general introduction to CBNSC its practical realization in LTN with an ample set of hands-on examples of such applications in Python, as well as situate LTN within the broader landscape of CBNSC.
+
+T15.Ontology-based Data Access: Theory and Practice
+Roman Kontchakov and Guohui Xiao
+View Abstract
+Ontology-Based Data Access (OBDA) has been developed since the mid-2000s as a
+semantic technology for accessing various data sources through the mediation of
+an ontology and declarative mapping between the data and the ontology. OBDA
+users do not have to know detailed organisation of the data sources. Instead,
+they can express user information needs as queries over the conceptual model,
+which is provided by the ontology. Using knowledge representation and automated
+reasoning techniques, an OBDA system will then reason about the ontology and
+mappings and reformulate these information needs in terms of appropriate calls
+to services provided by the data sources.The tutorial will cover the basic ingredients of the traditional OBDA setup for
+relational databases: the ontology language OWL 2 QL and mapping language R2RML.
+These two languages are designed so that answering conjunctive queries (CQs)
+over an OBDA specification, which consists of an ontology, a mapping and a
+datasource, can be reduced to answering queries over the relational datasource
+alone. It became clear, however, that the exponentially-large reformulations of
+CQs, which exist in theory, cannot be used directly in practice. So, in the
+first part of the tutorial, we describe how the structure of mappings and
+database integrity constraints can be exploited to make OBDA work in practice.
+In the second part of the tutorial, we provide an overview of more recent
+developments in the OBDA addressing the shortcomings of the traditional setup.
+First, the expressive power of OWL 2 QL is limited to ensure that all CQs are
+first-order rewritable. More expressive ontologies, however, can also be dealt
+with by using mappings and approximation. Second, the SameAs construct, which is
+crucial for ontology-based data integration, can be handled by the rewriting
+approach if the identity assertions are structured appropriately. Third, the
+SPARQL query language provides means of dealing with incomplete data and other
+features beyond the simple CQs. We discuss how these features of SPARQL can be
+implemented in the context of OBDA over relational databases. Then, we return to
+the questions of whether the exponential blowup of rewritings is unavoidable and
+consider non-recursive datalog rewritings (equivalently, SQL queries with views)
+as an alternative target language for rewritings. Finally, we briefly mention
+other most promising directions for future research (in particular, access to
+spatial and temporal data). The tutorial will also have a practical session, so a laptop may be required. We
+will use the Protege ontology editor with the Ontop plugin for the hands-on.
+
+T16.Predicting Human Decision-Making: From Prediction to Action
+Ariel Rosenfeld and Sarit Kraus
+View Abstract
+
+Human decision-making often transcends our formal models of rationality. Designing intelligent agents that interact proficiently with people necessitates the modeling of human behavior and the prediction of their decisions.In this tutorial, we will focus on the prediction of human decision-making and its use in designing intelligent human-aware automated agents of varying natures; from purely conflicting interaction settings (e.g., security and games) to fully cooperative interaction settings (e.g., advise provision, human rehabilitation). We will present computational representations, algorithms and empirical methodologies for meeting the challenges that arise from the above tasks in both a single interaction (one-shot) and repeated interaction settings. The tutorial will also review recent advances, current challenges and future directions for the field.
+In the course of the tutorial we will present techniques and ideas using machine learning, game-theoretical and general AI concepts. The basis for these concepts will be covered as part of the tutorial, however, a basic familiarity with the above concepts is encouraged.
+
+T17.Recent Advances in Knowledge Compilation
+Adnan Darwiche and Pierre Marquis
+View Abstract
+
+Knowledge compilation (KC) is a research area which aims to preprocess information to improve the time required to solve highly-demanding computational tasks (NP and Beyond NP problems). Pioneered more than two decades ago, KC is nowadays a very active field, being at the intersection of several areas of AI and computer science. This includes knowledge representation, tractable reasoning, algorithms, complexity theory and databases. As a result, KC is now providing a meeting point for several active research areas, while offering a great potential for new synergies and advancements.The tutorial will discuss some key dimensions relating to KC. This includes (1) the choice of a tractable language to compile into, which depends on its degree of tractability (operations it supports in polytime) and its succinctness (space efficiency of its representations); (2) the design and evaluation of knowledge compilers and supporting preprocessors; and (3) the applications of KC within AI, including product configuration, probabilistic inference, machine learning and explanations.
+
+T18.Recent Directions in Heuristic Search
+Ariel Felner, Daniel Harabor, Sven Koenig and Nathan Sturtevant
+View Abstract
+
+The aim of the tutorial is to give a survey of selected recent directions in search, and by providing three speakers we will ensure a diverse set of topics and viewpoints. The tutorial will have three focus areas, each given by a speaker whose personal research has focused on the given area. In particular, we aim to focus on the following areas:1) Optimal search. Searching for optimal solutions has always been at the core of this field. We will cover some recent advances in this area. Speaker: Ariel Felner.
+1) Incremental search. This type of search is used when the domain changes on the fly. Any-angle search. This type of search is used on grids and other Euclidean spaces when the moves are not constrained to specific cardinal directions. Speaker: Sven Koenig.
+3) Search in explicit domains, such as grids. Explicit domains can seem small or trivial, but with tight time, memory, and solution constraints, there are many interesting problems to be solved. We will look at a broad range of approaches and identify areas that have not been well-explored. Speaker: Nathan Sturtevant.
+Throughout this tutorial, we aim to highlight the different characteristics of different search problems and indicate which search methods are used for explicit (polynomial) domains and implicit (exponential) domains.
+
+T19.Scaling Discrete Integration and Sampling: Foundations and Challenges
+Supratik Chakraborty and Kuldeep S. Meel
+View Abstract
+Discrete sampling and integration are fundamental problems in
+Artificial Intelligence. The range of their applications span diverse
+areas, including probabilistic inference, statistical machine
+learning, network reliability analysis, functional verification,
+quantitative information flow, logistics planning and the like. Early
+algorithms and tools for these problems either gave strong theoretical
+guarantees that performed poorly in practice, or scaled well in
+practice with hardly any provable guarantees. More recently,
+researchers have invested significant effort in bridging the gap
+between theory and practice in the context of discrete integration and
+sampling. This has resulted in the development of algorithms for
+sampling and integration that scale to constraints involving hundreds
+of thousands of propositional variables, while also providing strong
+theoretical guarantees. This has been made possible largely by combining
+universal hashing (and its variants) with state-of-the-art automated
+reasoning tools like SAT/SMT solves.This tutorial will give the audience an under-the-hood look at some of
+the core concepts that have been key to the success of recent
+hashing-based techniques. This includes theoretical underpinnings of
+hashing-based sampling and integration, what impacts performance in
+practice and why, and how a careful balance of theory and system-level
+insights can be orchestrated to build state-of-the-art discrete
+samplers and integrators. The coverage of topics will include both
+weighted and unweighted versions of sampling and integration. The
+tutorial will also discuss opportunities and challenges for both
+theoreticians and system researchers to contribute to the scaling of
+discrete integration and sampling.
+T20.The Role of Wikipedia in Text Analysis and Retrieval
+Marius Pasca
+View Abstract
+
+High expectations of quality and consistency in expert-created knowledge resources reduce the number of their potential contributors. In turn, this makes it difficult to maintain the resources; refresh or add knowledge of the same type, as it becomes relevant over time; or incorporate knowledge of a new type. Especially in the context of Web search, where queries in the long tail reflect different backgrounds and interests of millions of users, resources that are more likely to be stale or incomplete are less likely to consistently provide value. As a counterpart to expert-created resources, non-expert users may collaboratively create large resources of unstructured or semi-structured knowledge, a leading representative of which is Wikipedia. The decentralized construction leads to the inherent lack of any guarantees of quality or reliability, and cannot rule out attempts at adversarial content editing. Nevertheless, articles within Wikipedia are incrementally edited and improved. Collectively, they form an easily-editable collection, reflecting an ever-growing number of topics of interest to people, in general, and Web users, in particular. Furthermore, the conversion of semi-structured content from Wikipedia into structured data makes knowledge from Wikipedia or from one of its derivatives potentially even more suitable for use in text processing or information retrieval.This tutorial examines the role of Wikipedia in tasks related to text analysis and retrieval. Text analysis tasks, which take advantage of Wikipedia, include coreference resolution, word sense and entity disambiguation, to name only a few. More prominently, they include information extraction. In information retrieval, a better understanding of the structure and meaning of queries enables a better match of queries against documents, and retrieval of knowledge panels for queries asking about popular entities. Concretely, the tutorial teaches the audience about characteristics, advantages and limitations of Wikipedia relative to other existing, human-curated resources of knowledge; derivative resources, created by converting semi-structured content in Wikipedia into structured data; the role of Wikipedia and its derivatives in text analysis; and the role of Wikipedia and its derivatives in enhancing information retrieval.
+
+T21.Toward Interpretable Deep Learning via Fuzzy Logic
+Lixin Fan, Chee Seng Chan, and Fei-Yue Wang
+View Abstract
+
+Experimental studies of deep learning have advanced so rapidly that even researchers themselves find trained deep neural networks hard to understand and explain, and sometimes, even worshipable. On the other hand, for instance in medical and healthcare use cases, it is imperative to explain/interpret decision-makings of deep learning to patients and their families. Fuzzy logic, thanks to their inherent abilities in modeling vague notions, is able to play crucial roles in developing interpretable deep learning systems. Based on our recent findings, which disclosed an intriguing connection between fuzzy logic and deep learning, this tutorial will introduce the main concepts of fuzzy logic and its applicability to deep learning and pattern recognition. A historical review of related fuzzy logic topics such as fuzzy sets, many-valued logics as well as fuzzy neural networks will also be given during the tutorial.This tutorial is related to a number of tutorial courses & special sessions conducted in FUZZ-IEEE for the past few years. We expect this tutorial will lead to lively discussion of related topics and rejuvenate research e.g. in applying fuzzy neural networks to computer vision and pattern recognition.
+
+T22.Verifying Agent-Based Autonomous Systems
+Louise Dennis and Michael Fisher
+View Abstract
+
+While the idea of Autonomous Systems is both appealing and powerful, actually developing such systems to be reliable is far from simple. An important aspect is to be able to verify the truly autonomous decision-making that forms the core of many such systems. In this tutorial, we will describe a practical approach to the formal verification of decision making in agent-based autonomous systems. This will incorporate material on autonomous systems, agent programming languages, formal verification, agent model-checking, and the practical analysis of autonomous systems.The tutorial will cover the use of model-checking to formally verify a rational agent at the heart of an autonomous system. This will include presentations on wider topics such as logic-based agent programming in the BDI (Beliefs-Desires-Intentions) paradigm and approaches to formal verification, particularly model-checking, before discussing the application of model-checking to agent systems and then agent-based autonomy. It will include discussion of several case studies and an exploration of some of the unusual requirements introduced by this area in which decision-making is required to take account of safe and ethical activities as well as purely operational constraints. Although there is no practical component to the tutorial, the software is open source and online tutorials are available for those who are interested in taking this further.
+
+QUARTER-DAY TUTORIALS
+T23.Argumentation Meets Computational Social Choice: A Tutorial
+Dorothea Baumeister, Daniel Neugebauer, and Jrg Rothe
+View Abstract
+This tutorial presents recent trends in abstract argumentation, focusing on gradual acceptance in and aggregation of abstract argumentation frameworks. We highlight the technical properties and the expressive potential of gradual measures of acceptance in abstract argumentation and we take the point of view of computational social choice and apply its approach to the argumentation setting.
+T24.Constraint Learning
+Luc De Raedt, Andrea Passerini, and Stefano Teso
+View Abstract
+
+Constraints are ubiquitous in Artificial Intelligence and Operations Research, they appear in purely logical problems such as propositional satisfiability, and hybrid logical-numerical problems like constraint satisfaction, constraint programming and full-fledged constraint optimization. Constraint learning is required when the structure (and/or the weights) of the target constraint satisfaction (or optimization) problem are not known in advance, and must be learned. Potential sources of supervision include offline data and other oracles, e.g. human domain experts and decision makers. Despite the relevance of constraint learning to Artificial Intelligence, no general introduction to the field of constraint learning is available. This tutorial aims at filling this gap.This tutorial is intended for Artificial Intelligence researchers and practitioners, as well as domain experts interested in constraint learning, programming, modelling, and satisfaction. The participants will gain an understanding of the core concepts in constraint learning, as well as a conceptual map of the variety of methods available and of the relationships between them. The main goal is to prepare the audience to understand the field of constraint learning and its relation to the broader context of machine learning and constraint satisfaction.
+
+T25.Declarative Spatial Reasoning: Theory, Methods, Applications
+Mehul Blatt and Carl Schultz
+View Abstract
+This tutorial will present computational visuo-spatial representation and reasoning from the viewpoints of artificial intelligence, commonsense reasoning, and spatial cognition and computation.The key focus will be on declarative spatial reasoning: the ability to (declaratively) specify and solve real-world problems related to mixed geometric (i.e., quantitative) and qualitative visual and spatial representation and reasoning. The practical problems that we address and demonstrate in this context encompass both specialist and everyday commonsense reasoning instances identifiable in a range of cognitive technologies and spatial assistance systems where spatio-linguistic conceptualisation and background knowledge focussed visuo-spatial cognition and computation are central.
+T26.Diffusion Mechanism Design in Social Networks
+Dengji Zhao
+View Abstract
+
+The literature of mechanism design has traditionally assumed that the set of participants are fixed and are known to the mechanism (i.e. the market owner) in advance. However, in practice the market owner can only directly reach a small number of participants. In order to get more participants, the market owner often needs costly promotions via, e.g., Google, Facebook or Twitter, but the impact of the promotions is often unpredictable. That is, the revenue-increase that the market owner gets from the promotions may not cover the costs of the promotions.To solve this dilemma, we build the promotion inside the market mechanism without using any advertising platform. The promotion guarantees that the market owner will never lose and does not need to pay if the promotion is not beneficial to her. This is achieved by incentivizing people who are aware of the market to further propagate the information to their neighbors. They will be rewarded only if their diffusion effort is beneficial to the market owner, so the promotion is cost-free to some extent. This tutorial will discuss how to design such cost-free promotions, analyze some essential examples and show the rich challenges we still face.
+
+T27.Epistemic Reasoning in AI
+Franois Schwarzentruber
+View Abstract
+Artificial agents take decisions according to their knowledge about the world and the knowledge they
+have about the knowledge of other agents: this is called higher-order knowledge. For instance, let us
+consider three autonomous robots on Mars called A, B, C. Agent A decides to explore the region to the North if A knows that neither B nor C knows that there is sand to the North. In this tutorial, we will present Dynamic Epistemic Logic which provides a framework to model such complex epistemic situations and the evolution in time of knowledge. The framework is sufficiently expressive to capture public actions (e.g. broadcast of a message) but also private and semi-private actions (e.g. private messages). The framework will be explained via a software, called Hintikkas world, available at the following url: http://people.irisa.fr/Francois.Schwarzentruber/hintikkasworld/In the second part, we will address model checking and epistemic planning that are standard decision problems for verifying multi-agent systems. We will pinpoint restrictions over actions (e.g. only public actions, etc.), discuss succinct models and give an overview of complexity results and decidability results. We will also advocate the use of knowledge-based programs for representing plans that are executed in a decentralized manner.
+T28.Game Theory and Machine Learning for Security
+Fei Fang
+View Abstract
+
+Game theoretic frameworks have been successfully applied to solve real-world security problems in which security agencies (defenders) allocate limited resources to protect important targets against human adversaries, with a rich body of research publications at IJCAI and other AI venues. More recently, there is a rising interest in combining game theory and machine learning to get better defensive strategies in more complex security settings. We survey recent directions at the intersection of game theory and machine learning, with a focus on work aiming to address real-world security challenges such as environmental sustainability and cyber-security.This tutorial will cover several frameworks of the integration of game theory and machine learning for security problems. After providing introductory material on game theory and machine learning, we will introduce the first framework  prediction based prescription. We will describe classical behavioral models of game players and how to learn such models from data. We will cover the latest work on predicting attacks from real-world data, and how to prescribe optimal defending strategy given the predictions. The second framework that will be introduced in the tutorial is deep learning powered strategy generation. We will introduce how to learn a good defender strategy for complex settings from simulated game plays using neural networks, and how the defender can learn to play when payoff information is not readily available. At the end, we will highlight work on differentiable learning of game parameters, followed by a discussion of opportunities for future work, including exciting new domains and fundamental theoretical and algorithmic challenges.
+
+T29.Game Theory to Data Science: Eliciting Truthful Information
+Boi Faltings and Goran Radanovic
+View Abstract
+
+AI systems often depend on information provided by other agents, for example sensor data or crowdsourced human computation. Usually, providing accurate and relevant data requires costly effort that agents may not always be willing to provide. Thus, it becomes important both to verify the correctness of data, but also to provide incentives so that agents that provide high-quality data are rewarded while those that do not are discouraged by low rewards.We will cover different settings and the assumptions they admit, including sensing, human computation, peer grading, reviews and predictions. We will survey different incentive mechanisms, including proper scoring rules, prediction markets and peer prediction, Bayesian Truth Serum, Peer Truth Serum, and the settings where each of them would be suitable. As an alternative, we also consider reputation mechanisms. We complement the game-theoretic analysis with practical examples of applications in prediction platforms, community sensing and peer grading.
+
+T30.Machines that Know Right and Can Not Do Wrong: The Theory and Practice of Machine Ethics
+Louise Dennis and Marija Slavkovik
+View Abstract
+
+The reality of self-driving cars heralded the need to consider the legal and ethical impact of artificial agents. Self-driving cars and powerful robots are not the only ethically challenging artificial entities today. Whenever we outsource decisions we also outsource the responsibility for the legal and ethical impact of those de- cisions. Thus, any system capable of autonomous decision-making that replaces or aids human decision-making is potentially the subject of concern for machine ethics. It is thus unsurprising that there is an enormous interest, particularly in the AI community, in the challenge of making ethical artificial systems and ensuring that artificial entities behave ethically. The aim of this tutorial is to support the AI community in advancing this interest.Machine ethics involves research in traditional AI topics such as: robotics, decision-making, reasoning and planning, but also concerns moral philosophy, economy and law. A lot of the early work in machine ethics revolves around an- swering the question of can an artificial agent be a moral agent? Today we see a rise in research pursuing the question of how to make artificial moral agents? This tutorial aims to introduce the existing theory of explicitly and implicitly ethical agents, give an overview of existing implementations of such agents and outline the open lines of research and challenges in machine ethics.
+
+
+Tutorial Schedule
+
+
+FRIDAY JULY 13TH
+T08 Deep Learning for AI
+T12 Musical Metacreation: AI for Generative Music
+T18 Recent Directions in Heuristic Search
+T19 Scaling Discrete Integration and Sampling: Foundations and Challenges
+T21 Toward Interpretable Deep Learning via Fuzzy Logic
+T25 Declarative Spatial Reasoning: Theory, Methods, Applications
+T29 Game Theory to Data Science: Eliciting Truthful Information
+
+
+SATURDAY JULY 14TH
+T05 Boosting Optimization via Machine Learning
+T06 Computational Social Choice and Moral Artificial Intelligence
+T07 Deep Generative Models
+T09 Defeasible Description Logics
+T15 Ontology-based Data Access
+T20 The Role of Wikipedia in Text Analysis and Retrieval
+T22 Verifying Agent-Based Autonomous Systems
+T23 Argumentation Meets Computational Social Choice: A Tutorial
+T26 Diffusion Mechanism Design in Social Networks
+T27 Epistemic Reasoning in AI
+T28 Game Theory and Machine Learning for Security
+
+
+SUNDAY JULY 15TH
+T01 Adversarial Maching Learning
+T02 AI for Social Good Design Hackathon for K-12 Outreach
+T03 Algorithmic Social Intervention
+T04 Artificial Intelligence and the Law
+T10 Imagination Machines
+T11 Multiwinner Elections: Applications, Axioms, Algorithms, and Generalizations
+T13 Neural-symbolic Learning and Reasoning with Constraints
+T16 Predicting Human Decision-Making: From Prediction to Action
+T17 Recent Advances in Knowledge Compilation
+T24 Constraint Learning
+T30 Machines that Know Right and Can Not Do Wrong: The Theory and Practice of Machine Ethics
+
+
+
+
+
+
+
+Metting Rooms
+Friday July 13th
+Sat July 14th
+Sun July 15th
+
+
+
+08:30-10:00
+10:30-12:30
+14:00-15:30
+16:00-18:00
+08:30-10:00
+10:30-12:30
+14:00-15:30
+16:00-18:00
+08:30-10:00
+10:30-12:30
+14:00-15:30
+16:00-18:00
+
+
+T2
+
+
+
+
+T05
+T05
+T07
+T07
+T01
+T01
+T16
+T16
+
+
+K21
+T25
+T29
+T12
+T12
+T20
+T20
+T06
+T06
+T13
+T13
+T10
+T10
+
+
+K11
+
+
+
+
+T26
+T28
+T22
+T22
+T04
+T04
+T17
+T17
+
+
+T5
+
+
+
+
+T09
+T09
+T15
+T15
+T03
+T03
+T11
+T11
+
+
+T6
+T21
+T21
+T19
+T19
+T23
+T27
+
+
+T02
+T02
+T24
+T30
+
+
+C6
+T08
+T08
+T18
+T18
+
+
+
+
+
+
+
+
+
+
+
+
+
+The recommended schedule for the tutorials are:
+8:00-8:30: registration
+8:30-10:00: morning tutorial, part 1
+10:00-10:30: coffee break
+10:30-12:30: morning tutorial, part 2
+12:30-14:00: lunch break*
+14:00-15:30: afternoon tutorial, part 1
+15:30-16:00: coffee break
+16:00-18:00: afternoon tutorial, part 2
+
+
+

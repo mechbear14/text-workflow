@@ -1,0 +1,9 @@
+Home Page | MIT CSAIL
+
+INFO: krpano 1.19-pr8 (build 2016-09-30)
+INFO: HTML5/Desktop - Chrome 75.0 - WebGL
+INFO: Registered to: MIT CSAILCLOSELAYERSHOTSPOTS
+
+MITs Computer Science and Artificial Intelligence Laboratorypioneers research in computing that improves the way people work, play, and learn. LearnMore
+
+

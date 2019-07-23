@@ -1,0 +1,63 @@
+An Introduction to Creative Artificial Intelligence for Music - Kvan Tatar
+
+
+I got this question a lot:
+
+How do you make music with Artificial Intelligence? This question goes as deep as the question how do you make music?; but still, I will try to give a general introduction to making music with Artificial Intelligence. There will be bunch of readings in the following, yet this is not a page that gives an explicit implementation tutorial.
+Disclamier: This is an informal page. I may speak out my personal views, and speculate here and there. Yet, the publications are solid, formal, and peer reviewed. Well, maybe too formal for those who are not familiar with the academic language. Open Access: Some papers are not open access, that is, you need a subscription to the journal to download the article. Most university libraries are subscribed to these journals and you can access papers through your library. Please contact your library if you cant access any paper. If you dont have any ties to an academic institute, you could just ask the authors to share an author copy with you. The contents of author copies are the same as the journal copies. The author copies are just not formatted in the journal style. You could easily send the authors an email, or send them a message on researchgate to ask for an author copy. Sometimes, the authors also share their papers on their personal websites. Open access is a known issue in academia, and many researchers are aware of the issue and proposing solutions. However, things are moving with an institutional speed, aka slow as hell. Lets do it.
+Will AI conquer the world?
+My computer cant even find a file if I mistake one letter. Good luck on conquering the world. Pop-science articles on AI are detrimental to the society, and lets stop sharing these clickbaits. There are other issues related to AI technologies that need immediate actions. I will touch on these under the section AI & Ethics at the bottom. Spoiler: I dont think autonomous systems will conquer the world, simply because they lack instrinsic motivations. My computer will not wake up one day and start cooking some delicious food, unless I program it to do so. Yet, this doesnt mean that humans will not make malicious autonomous software to cause real harm. Actually, this has happened already:
+Documentary: Zero Days
+Lets clarify what we mean when we call a system AI system. Two main disciplines around artificial intelligence appear in the research:
+
+ Artificial General Intelligence (AGI) and Applied Artificial Intelligence (AAI)
+Artificial General Intelligence (AGI) is quite philosophical and mainly focuses on human cognition, how we communicate etc. AGI systems try to solve multiple problems at once with one architecture, and they are mainly implemented as computational systems, aka software. That is asking the question if we could have a system that cooks, communicates, talks, plays music, choreographs dance etc.
+Side kick: If you have spare time, here is a paper that compares various cognitive architectures in the AGI domain. This paper is not necessarily related to music. However, the CLARION architecture mentioned in this paper has been applied to music.
+-> Thrisson, K., & Helgasson, H. (2012). Cognitive Architectures and Autonomy: A Comparative Review. Journal of Artificial General Intelligence, 3(2), 130. https://doi.org/10.2478/v10229-011-0015-3
+
+
+Applied Artificial Intelligence (AAI)  is autonomous systems solving one problem at a time. Almost 99% of AI systems you see online are in this category. These systems automatize one task in a smart way. AAI will be our main focus, and from now on, I refer to AAI when I mention artificial intelligence.What is Musical Metacreation?
+
+Making music with Artificial Intelligence =Creative Artificial Intelligence for Music = The following paper gives an introduction to the general idea of making music with AI, and Computational Creativity. ->  Pasquier, P., Eigenfeldt, A., Bown, O., & Dubnov, S. (2017). An Introduction to Musical Metacreation. Computers in Entertainment, 14(2), 114. https://doi.org/10.1145/2930672
+Looking from a Wider Perspective
+Making music with AI is strongly connected with a broader discipline called Computational Creativity (CC).
+
+Side kick:The publications of the International Conference on Computational Creativity is open access, and available here. Click a conference year on that link, and find the proceedings tab on that new page, there you will find the information you seek padawan. These papers cover various topics around creativity and CC systems applying tasks such as writing poems, generating cooking recipies, making music etc. 
+CC asks the questions,
+->What is creativity?
+->What would be the definition and taxonomy of creativity?
+
+I strongly recommend the writings of Margaret Boden if you are interested in these two questions. Here are some:A must read -> Boden, M. A. (2015). Creativity and ALife. Artificial Life, 21(3), 354365. https://doi.org/10.1162/ARTL_a_00176
+Additionals ->Boden, M. A. (2010). The Turing test and artistic creativity. Kybernetes, 39(3), 409413. https://doi.org/10.1108/03684921011036132
+
+ ->Boden, M. A. (2009). Computer models of creativity. AI Magazine, 30(3), 23.
+
+
+
+ ->Boden, M. A., & Edmonds, E. A. (2009). What is generative art? Digital Creativity, 20(12), 2146. https://doi.org/10.1080/14626260902867915
+-> How do we model human creativity?-> How do we support creativity with autonomous systems? -> How do we make artificially creative systems? These are more broad questions. Pasquier et al. (2017) gives a nice introduction to these questions in the domain of music. The first paper in the next section also covers these questions applied to music.Can I play music with Artificial Intelligence?
+Yes.
+We recently published a survey on interactive music systems based on artificial intelligence, aka musical agents. The topic goes deep, and the paper is quite heavy. Still, I strongly recommend the sections 1, 2, 3 for an introduction to the topic; and section 8 to understand where we are at in this area. If you have time, feel free delve into the whole paper.-> Tatar, K., & Pasquier, P. (2018). Musical agents: A typology and state of the art towards Musical Metacreation. Journal of New Music Research, 47(4), 150. https://doi.org/10.1080/09298215.2018.1511736
+
+You can download a free eprint copy of this paper using this link.Can I compose music with Artificial Intelligence? 
+Yes.
+I prefer categorizing these systems as purely generative as they run offline and do not interact with other software agents and humans (excluding the user interaction with hyper-parameters). Following paper surveys these systems from a conventional music perspective:
+-> Herremans, D., Chuan, C.-H., & Chew, E. (2017). A Functional Taxonomy of Music Generation Systems. ACM Computing Surveys, 50(5), 130. https://doi.org/10.1145/3108242
+And, the following paper covers purely generative systems that apply Deep Learning:-> Briot, J.-P., Hadjeres, G., & Pachet, F. (2017). Deep Learning Techniques for Music Generation-A Survey. ArXiv Preprint ArXiv:1709.01620.
+ 
+
+I already mentioned so many papers! I recommend the following, find a specific musical task that you want to focus, and read related sections in those papers. From there, you can follow the citations in those sections to go deeper in your focus. Some systems share their codes as a link in the paper, you can download and check them out.
+
+AI & EthicsBefore we finish, I mentioned earlier that I will touch on AI & Ethics. I think the most immediate action is required to ban AI weapons. Think about this way, companies could make a turret to automatically detect and shoot any enemy entering an area. This may sound futuristic, but here we are:wikipedia.org/wiki/SGR-A1
+
+I think that no machine should make the decision to end a human life. There is almost a consensus in the academia about this:
+
+->futureoflife.org/lethal-autonomous-weapons-pledge/?cn-reloaded=1&cn-reloaded=1->www.theguardian.com/technology/2017/aug/20/elon-musk-killer-robots-experts-outright-ban-lethal-autonomous-weapons-war
+We should take this matter as serious as nuclear weapons. Next time you are about to share another AI conquering world article, please share an article about why we should ban autonomous weapons instead.
+
+There are also social effects of autonomous systems. I really like Johanna Brysons writings on that topic:http://www.cs.bath.ac.uk/~jjb/web/ai.htm.
+Like all the topics I mentioned so far, AI & Ethics goes quite deep. IEEE started the discussion of standards for autonomous systems, and you can find a book on this topic here:https://standards.ieee.org/industry-connections/ec/autonomous-systems.html
+Last Words...
+I feel like I talked about readings of hundreds of pages, without giving explict guidelines for the implementation of autonomous systems making music. Well, that is another post I guess.
+
+				

@@ -1,0 +1,66 @@
+Neural Networks & AI in Music--Its History & Breakthroughs | Exxact
+
+
+This post was written by Jordi Pons (@jordiponsdotme) in collaboration with and sponsorship of Exxact (@Exxactcorp).
+Many things have happened between the pioneering papers written by Lewis and Todd in the 80s and the current wave of GANs composers. Along that journey, connectionists work was forgotten during the AI winter, very influential names (like Schmidhuber or Ng) contributed seminal publications and, in the meantime, researchers have made tons of awesome progress.
+We wont be going through every single paper in the field of neural networks for music nor diving into technicalities, but well cover what we consider the milestones that helped shape the current state of music AI  this being a nice excuse to give credit to these wild researchers who decided to care about a signal that is nothing else but cool. Lets start!
+
+Acronyms
+AI  Artificial Intelligence
+CNN  Convolutional Neural Network
+GAN  Generative Adversarial Network
+LSTM  Long Short-Term Memory (a type of recurrent neural network)
+MIDI  Musical Instrument Digital Interface (a score-like symbolic music representation)
+MLP  Multi-Layer Perceptron
+RNN  Recurrent Neural Network
+VAE  Variational Auto-Encoders
+Connectionists Were Into Algorithmic Composition
+Many millions of years ago, a long winter started on Earth after the impact of a large asteroid. Out of this catastrophe, there was a sudden mass extinction of Earths species. 
+Luckily enough, neural networks applied to music had a different faith during the AI winter. This period resulted in a series of spurious work onalgorithmic composition that maintained the fields relevancy from 1988 to 2009. This is the contribution of the so-calledconnectionists to neural networks and machine learning.
+However, these early works are pretty much unknown to most contemporary researchers.
+This first wave of work was initiated in 1988 by Lewis and Todd, who proposed the use of neural networks for automatic music composition. 
+On the one hand, Lewis used a multi-layer perceptron for his algorithmic approach to composition called creation by refinement. That, in essence, is based on the same idea asDeepDream: utilizing gradients to create art.
+On the other hand, Todd used a Jordan auto-regressive neural network (RNN) to generate music sequentially  a principle that, after so many years, is still valid. Many people kept using this same idea throughout the years, among them: Eck and Schmidhuber, who proposed using LSTMs for algorithmic composition. Or, to consider a more recent work, the Wavenet model (which is capable of generating music) also makes use of this same causal principle.
+See that the old connectionist ideas that Todd and Lewis introduced back in the 80s for algorithmic composition are still valid today. But, if their principles were correct, why did they not succeed? Well, in Lewis words: it was difficult to compute much of anything. While one NVIDIA GeForce RTX 2080 Ti GPU in an Exxact Deep Learning Development Workstation may have 110 tflops of theoretical performance, aVAX-11/780 (the workstation he used back in 1988 for his work) had 0.1 mflops.
+But lets go back to discuss the work of Eck and Schmidhuber: in their paper Finding temporal structure in music: blues improvisation with LSTM, they try to address one of the major issues that algorithmically composed music had (and still has): the lack of global coherence or structure.
+To address this challenge, they proposed the use of LSTMs  which are supposedly better than vanilla-RNNs for learning longer temporal dependencies. Note, then, that as a result of this experimentation, music has been one of the early applications of LSTMs!
+How does LSTM-generated music sound? Is it able to generate a reasonably structured blues? Judge for yourself:
+Audio Player
+
+Lets Crunch Low-Level Data!
+Before 2009 (and remember that until 2006 Hinton and colleagues did not find a systematic way to train deep neural networks withdeep belief networks) most works were addressing the problem of algorithmic music composition. They were mostly attempting to do this via RNNs. 
+But there was one exception.
+Back in 2002, Marolt and his colleagues used a multi-layer perceptron (operating on top of spectrograms!) for the task of note onset detection. This was the first time someone was processing music in a format that was not symbolic. This started a new research era: a race had begun to be the first to address any task in an end-to-end learning fashion. That means learning a mapping system (or function) able to solve a task directly from raw-audio, as opposed to solving it using engineered features (like spectrograms) or from symbolic music representations (like MIDI scores).
+
+In 2009, the AI winter ended and a first bunch of deep learning works began to impact the field of music and audio AI. 
+People started tackling more complex problems (like music audio tagging or chord recognition) with deep learning classifiers. 
+Following Hintons approach based on pre-training deep neural networks with deep belief networks, Lee and colleagues (among them Andrew Ng) built the first deep convolutional neural network for music genre classification. This being the foundational work that established the basis for a generation of deep learning researchers who spent great efforts designing better models to recognize high-level (semantic) concepts from music spectrograms.
+However, not everyone was satisfied utilizing spectrogram-based models. Around 2014, Dieleman and colleagues started exploring an ambitious research direction that was presented to the world as End-to-end learning for music audio. In that work, they explore the idea of directly processing waveforms for the task of music audio tagging  what had some degree of success, since spectrogram-based models were still superior to waveform-based ones. At that time not only were the models not mature enough, but training data was scarce when compared to the amounts of data now some companies have access to. For example, a recent study run atPandora Radio shows that waveform-based models can outperform spectrogram-based ones provided that enough training data is available.
+Another historically remarkable piece of work comes from Humphrey and Bello (2012) who, during these days, were proposing to use deep neural networks for chord recognition. They convinced LeCun to co-author the deep learning for music MANIFESTO  see the references for its actual (slightly different) title! In this article, they explain to music technology researchers that its not a bad idea to learn (hierarchical) representations from data  and, interestingly, they were arguing that the community was already making use of deep (hierarchical) representations!
+So.. Whats Next?
+Broadly speaking, one can divide this field into two main research areas: music information retrieval, which aims to design models capable to recognize the semantics present in music signals; and algorithmic composition, with the goal to computationally generate new appealing music pieces. 
+Both fields are currently thriving with the research community steadily advancing!
+For example, in the music information retrieval field: although reasonable success has been achieved with current deep neural networks,recent works are still pushing the boundaries of whats possible through improving the architectures that define these models.
+But actual researchers do not only intend to improve the performance of such models. They are also studying how to increase its interpretability, or how to reduce its computational footprint.
+Furthermore, as previously mentioned, there is a strong interest in designing architectures capable of directly dealing with waveforms for a large variety of tasks. However, researchers have not yet succeeded in designing a generic strategy that enables waveform-based models to solve a wide range of problems  something that would allow the broad applicability of end-to-end classifiers.
+Another group of researchers is also exploring the edge of science to improve algorithmic composition methods. Remember that back in the 80s (Todd and Lewis) and during the early 2000s (Eck and Schmidhuber) rather simplistic auto-regressive neural networks were used. But now is time for modern generative models, like GANs (generative adversarial networks) or VAEs (variational auto-encoders).
+Interestingly enough: these modern generative models are not only being used to compose novel scores in symbolic format, but models likeWaveGAN or Wavenet can be a tool to explore novel timbral spaces or to render new songs directly in the waveform domain (as opposed to composing novel MIDI scores).
+Neural networks are now enabling tools (and novel approaches!) that were previously unattainable. Tasks like music source separation or music transcription (considered the Holy Grail among music technologists) are now revisited from the deep learning perspective. It is time to re-define whats possible and whats not, and simply dividing the field of neural networks for music into two areas is just too short-sighted. A new generation of researchers are currently searching for innovative ways to put the pieces together, experimenting with novel tasks, and using neural networks as an instrument for creativity  which can lead to novel ways for humans to interact with music.
+Do you want to be one of those shaping that future?
+
+References
+Skip this section if you are not a motivated scholar
+This post is based on a tutorial presentation Jordi Pons prepared some months ago.
+Lewis and Todd papers from the 80s:
+The first time someone used LSTMs for music:
+The first time someone processed spectrograms with neural networks:
+The first time someone built a music genre classifier with neural networks  based on Hintons deep belief networks for unsupervised pre-training:
+The first time someone built an end-to-end music classifier:
+The recent study run at Pandora Radio showing the potential of end-to-end learning at scale:
+Humphrey and Bello (2012) did some work on chord recognition and wrote the deep learning for music manifesto:
+To know more about the ongoing discussion on how to improve current architectures, see:
+Some modern generative models for algorithmic composition (GANs and VAEs, basically):
+And some works directly synthesizing music audio (waveGAN and Wavenet, basically):
+Acknowledgments
+Many thanks to JP Lewis and to Peter M. Todd for answering emails and to Yann Bayle for maintaining this (literally) awesome list of deep learning papers applied to music.
+

@@ -1,0 +1,94 @@
+A16Z AI Playbook
+
+
+
+
+Videos, Tutorials, and Blogs
+Talks and Podcasts
+
+AI And Deep Learning. From types of machine intelligence to a tour of algorithms, a16z Deal and Research team head Frank Chen walks us through the basics (and beyond) of AI and deep learning in this slide presentation.
+a16z Podcast: The Product Edge in Machine Learning Startups. A lot of machine learning startups initially feel a bit of impostor syndrome around competing with big companies, because (the argument goes), those companies have all the data; surely we cant beat that! Yet there are many ways startups can, and do, successfully compete with big companies. You can actually achieve great results in a lot of areas even with a relatively small data set, argue the guests on this podcast, if you build the right product on top of it.
+When Humanity Meets AI. Andreessen Horowitz Distinguished Visiting Professor of Computer Science is Fei-Fei Li [who publishes under Li Fei-Fei], associate professor at Stanford University, argues we need to inject a stronger humanistic thinking element to design and develop algorithms and A.I. that can co-habitate with people and in social (including crowded) spaces.
+"Large-Scale Deep Learning for Intelligent Computer Systems", Google Tech Talk with Jeff Dean at Campus Seoul, March 2016.
+Prof. Geoff Hinton Neural Networks for Machine Learning, Coursera Lectures 2012.
+Deep Learning and Understandability versus Software Engineering and Verification, Peter Norvig, 2016.
+Accelerating Understanding: Deep Learning, Intelligent Applications, and GPUs. The Institute for Scientific Computing Research (ISCR) sponsored this talk entitled "Deep Learning" on April 16, 2015, at the Lawrence Livermore National Laboratory. The talk was presented by Yann LeCun, director of AI research at Facebook and professor of data science, computer science, neural science and electrical engineering at NYU.
+A DARPA Perspective on Artificial Intelligence. What's the ground truth on artificial intelligence (AI)? In this video, John Launchbury, the Director of DARPA's Information Innovation Office (I2O), attempts to demystify AI: what it can do, what it can't do, and where it is headed.
+
+Tutorials
+MOOCs
+Blogs and sites
+Mailing lists
+Podcasts
+Books
+Other
+Referenced Links
+
+Steve Jobs's bicycles for the minds video
+E.F. Codd's original research paper proposing the relational database (1970)
+Oracle published its first commercially available Oracle V2 database in 1979
+Harvard Business Review "The Simple Economics of Machine Intelligence" published in November 2016
+Open source MIT License
+Jeff Bezos's AI history tl;dr in his 2016 letter to Amazon shareholders
+Jeff Dean's presentation on Trends and Developments in Deep Learning Research
+Jerry Kaplan defining artificial intelligence in his book Artificial Intelligence: What Everyone Needs To Know
+Stanford CoreNLP toolkit
+Tools and frameworks include scikit-learn, Spark's MLlib (for a wide collection of machine learning techniques), Tensorflow, Keras, Caffe2, MXNet(for deep learning models)
+Paper outlining the tradeoffs between power, memory, accuracy, etc in deep neural networks by Canziani, Culurciello, and Paszke
+Medium post describing a set of strategies for getting data
+A tour of machine learning algorithms
+The 10 Algorithms Machine Learning Engineers Need to Know
+Microsoft's developer documentation How to choose machine learning algorithms for Microsoft Azure machine Learning
+Stack Overflow answer to "When to choose which machine learning classifer?"
+Scikit-learn documentation: Choosing the right estimator
+Christopher Manning in his introductory lecture for "CS Natural Language Processing with Deep Learning"
+Andrew L. Beam, Deep Learning 101
+Andrey Kruenkov, A "Brief" of Neural Nets and Deep Learning
+Haohan Wang and Bhiksha Raj, On the Origin of Deep Learning provide a good historical overview, explaining concepts including the math
+Jurgen Schmidhuber, Deep Learning in Neural Networks: An Overview provides the most comprehensive and technically dense overview
+NVIDA's 2014 blog post Accelerate Machine Learning with the cuDNN Deep Neural Network Library
+Watch Google legend Jeff Dean from the Google Brain team lecture on Large-Scale Deep Learning for Intelligent Computer Systems
+Read Michael Nielsen's excellent ebook and Website Neural Networks and Deep Learning
+IEEE interview with UC Berkeley professor Michael Jordan from October 2014
+Wikipedia article on the types of artificial neural networks
+Browser-based TensorFlow playground
+a16z AI Primer
+Convolutional Neural Networks introduced by LeCun, Bengio, Lottou, Haffer in 1998
+ImageNet Large Scale Visual Recognition Challenge (ILSVRC)
+A good beginner's guide on ConvNets written by a UCLA computer science undergrad named Adit Deshpande
+Andrej Karpathy's http://cs231n.github.io/convolutional-networks/. Make sure to scroll down to see the cool animation that shows you what a convolution is.">class notes from Stanford CS class CS231n: Convolutional Neural Networks for Visual Recognition
+Play with Andrej Karpathy's ConvNetJS demo which trains a Convolutional Neural Network on the MNIST digits dataset (consisting of handwritten numerical digits) in the comfort of your own browser.
+2013 paper by Matthew Zeiler and Rob Fergus provides some visual examples that help you understand the intuition behind the architecture.
+There are many other types of neural networks. If you are interested in learning more, we suggest a visit to the Asimov's Institute Neural Network Zoo
+Understanding LSTM Networks, Christopher Olah's excellent overview article is a beautiful piece of explanatory writing and illustration.
+LSTM architecture introduction by Hochreiter and Schmidhuber in 1997
+Rohan Kapur's Medium post on Recurrent Neural Networks & LSTMs
+Top 15 Frameworks for Machine Learning Experts
+The indefatigable Andrej Kaparthy posted a "Google Trends"-esque type analysis showing what's hot if you peek inside 28,303 machine learning research papers over the last 5 years
+Ian Goodfellow et. al's 2014 Generative Adversarial Networks paper
+For the math-inclined, see this Stanford tutorial which covers supervised and unsupervised learning and includes code samples.
+Algobeans layman's explanation of gradient descent in artificial neural networks
+Survey of unsupervised anomaly detection algorithms](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0152173)
+"YouTube cat finder" research that kindled the general public's enthusiasm for AI and the accompanying paper by the Google Brain team and Stanford researchers Quoc Le and Andrew Ng
+Xiaojin Zhu's epic 135-slide tutorial on semi-supervised learning and the accompanying paper which surveys the literature back in 2008.
+DeepMind published a paper in Nature describing a system that combines reinforcement learning with deep learning to learned to play a set of Atari video games, some with great success (like Breakout) and others terribly (like Montezuma's Revenge).
+The Nervana team (now at Intel) published an excellent explanatory blog post that walks through deep reinforcement learning techniques in detail.
+Richard Sutton and Andrew Barto wrote the book on Reinforcement Learning. Check out the draft of the 2nd edition.
+
+
+
+
+
+
+Datasets
+
+
+
+
+Bibliography
+
+
+
+
+
+

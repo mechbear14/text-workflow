@@ -1,0 +1,45 @@
+Video AI - Video Content Analysis | Google Cloud
+
+Precise video analysis
+
+                Video Intelligence API automatically recognizes more than 20,000 objects, places,
+                and actions in stored and streaming video. It also distinguishes scene changes and
+                extracts rich metadata at the video, shot, or frame level. Use in combination with
+                AutoML Video Intelligence to create your own custom entity labels to categorize
+                content.
+              
+
+
+Simplify media management
+
+                Find value in vast archives by making media easily searchable and discoverable.
+                Easily search your video catalog the same way you search text documents. Extract
+                metadata that can be used to index, organize, and search your video content, as well
+                as control and filter content for whats most relevant.
+              
+
+
+Easily create intelligent video apps
+
+                Gain insights from video in near real time using the Video Intelligence Streaming
+                Video APIs, and trigger events based on objects detected. Build engaging customer
+                experiences with highlight reels, recommendations, interactive videos, and more.
+              
+
+
+Automate expensive workflows
+
+                Reduce time and costs associated with transcribing videos and generating closed
+                captions, as well as flagging and filtering inappropriate content.
+              
+
+
+Process and store on Google Cloud Platform
+
+                Seamlessly integrate with 
+                Google Cloud Storage to easily store and upload videos to your model.
+                Select the region where processing will take place and choose from any region
+                where Google Cloud Platform is available. Benefit from a consistent
+                API, low-latency, and speed across multiple storage classes.
+              
+

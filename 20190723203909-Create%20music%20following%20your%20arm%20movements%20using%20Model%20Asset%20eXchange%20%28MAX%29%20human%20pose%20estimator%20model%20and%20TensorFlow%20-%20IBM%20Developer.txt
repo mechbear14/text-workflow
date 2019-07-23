@@ -1,0 +1,20 @@
+Create music following your arm movements using Model Asset eXchange (MAX) human pose estimator model and TensorFlow - IBM Developer
+
+Summary
+This developer code pattern demonstrates how you can create your own music based on your arm movements in front of a webcam. It uses the Model Asset eXchange (MAX) Human Pose Estimator model and TensorFlow.js.
+Description
+This code pattern is based on Veremin, but modified to use the Human Pose Estimator model from the Model Asset eXchange (MAX). The Human Pose Estimator model is converted to the TensorFlow.js web-friendly format. It is a deep learning model trained to detect humans and their poses in a given image.
+The web application attaches video from your web camera, and the Human Pose Estimator model predicts the location of your wrists within the video. The application takes the predictions and converts them to tones in the browser or to MIDI values, which get sent to a connected MIDI device.
+Flow
+
+
+Human pose estimator model is converted to the TensorFlow.js web format using the Tensorflow.js converter.
+User launches the web application.
+Web application loads the TensorFlow.js model.
+User stands in front of webcam and moves arms.
+Web application captures video frame and sends to the TensorFlow.js model. Model returns a prediction of the estimated poses in the frame.
+Web application processes the prediction and overlays the skeleton of the estimated pose on the Web UI.
+Web application converts the position of the users wrists from the estimated pose to a MIDI message, and the message is sent to a connected MIDI device or sound is played in the browser.
+
+Instructions
+Get detailed instructions on using this pattern in the README. 

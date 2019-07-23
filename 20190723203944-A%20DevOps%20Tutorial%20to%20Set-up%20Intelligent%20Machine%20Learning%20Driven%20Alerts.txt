@@ -1,0 +1,5 @@
+A DevOps Tutorial to Set-up Intelligent Machine Learning Driven Alerts
+ Sponsored by InfluxData
+January 16 , 20181 PM ET
+In this webinar, Sebastien Leger, Founder, and CEO of LoudML, will show you how to use the LoudML machine learning API with your InfluxDB instance to quickly detect anomalies in your time series data that can trigger notifications in Slack or any of your favorite Incident management solutions like Pager Duty, OpsGenie, Victor Ops, or Alerta.
+This webinar is organized in 4-parts: Basic setup running Docker, training your first-time series model (no programming needed!), building intelligent triggers and notifications, putting it all into practice as your solution easily detects abnormal data!

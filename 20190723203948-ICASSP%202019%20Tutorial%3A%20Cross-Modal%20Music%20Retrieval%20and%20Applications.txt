@@ -1,0 +1,31 @@
+ICASSP 2019 Tutorial: Cross-Modal Music Retrieval and Applications
+
+Description
+Background and Scientific Context	
+
+            There has been a rapid growth of digitally available music data including audio recordings, images of
+            scanned sheet music, album covers, and an increasing number of video clips. In this tutorial, we cover
+            general signal processing and machine learning concepts designed to bridge the gap between these
+            different music representations. In particular, we discuss traditional approaches based on musically
+            motivated features, generalized audio fingerprinting, as well as recent data embedding techniques based
+            on deep learning. These technologies form the building blocks for many exciting music navigation and
+            browsing applications including the classical problem of automated score following.
+            
+Aims of the Tutorial
+	
+            Music not only connects people but also relates to many different research disciplines. Adopting an  interdisciplinary perspective, our aim is to show that music is an attractive, rich, and challenging problem domain that has many things to offer to the signal processing community. Considering cross-modal music retrieval tasks, we demonstrate that these scenarios are well suited to discuss signal processing and machine learning techniques (comparing traditional feature extraction and deep learning approaches). Furthermore, we want to give some examples of fascinating music retrieval applications of academic, educational, and commercial relevance.
+            
+Target Audience and Assumed Knowledge
+	
+            The main goal of this tutorial is to give an exciting and easy-to-understand introduction to music processing appealing to a wide audience in academia and industry. By providing many illustrative audio examples and by working with pictures (rather than with formulas), we will make an effort to convey the main ideas, in particular to non-experts and to researchers who are new to the field of music processing. By doing so, the tutorial should appeal to a wide and interdisciplinary audience working in different fields including signal processing, information retrieval, and machine learning.
+            
+Contents Outline
+
+            It is our primary goal to give an exciting tutorial that ranges from basic to advanced techniques used in music processing. Our tutorial consists of three one-hour sessions, where we make sure that in each session is enough room for questions and interaction with the audience. To have some variety throughout the tutorial, we will discuss theoretical as well as practical aspects in each of the three sessions. Recent techniques based on deep learning will play a role throughout the tutorial, even though they are mentioned explicitly only in the third session of the following overview.
+            
+
+1. Session. General introduction and overview; music representations; sequence-based retrieval and mid-level music representations; shingle-based retrieval; recent approaches and discussion.
+2. Session. Introduction to score following; music transcription including approaches based on machine learning; symbolic fingerprinting; indexing and efficiency issues; applications/demos.
+3. Session. General introduction to deep learning approaches in music processing; cross-modal music embedding; data augmentation; recent trends using input attention; final round of questions and discussion.
+
+

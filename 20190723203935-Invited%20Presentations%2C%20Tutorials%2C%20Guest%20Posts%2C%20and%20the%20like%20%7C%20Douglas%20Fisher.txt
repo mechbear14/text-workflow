@@ -1,0 +1,46 @@
+Invited Presentations, Tutorials, Guest Posts, and the like | Douglas Fisher
+
+Most talks are based on research that is published and can be found  under publications. A few presentations are not based on published  research per se, and have an online presence:
+Theological implications of perceived machine intelligence Invited presentation and panelist at the Symposium on Theological implications of machine intelligence. Carson-Newman College, Jefferson City, TN, September, 1998. (My thinking has changed somewhat on these matters, but the main concerns with degradation of perceptions of personhood are largely the same).
+Artificial intelligence and machine learning: Now and the future  Doug Fisher, associate professor of computer science and computer engineering at Vanderbilt University, talks about the state of the art in artificial intelligence and robotics in this interview by Adelyn Jones of WRLT FM radio in Nashville. The interview was aired Sunday, March 19, 2006 and was produced by Dan Buckley and Adelyn Jones.  Music by John Scofield. (Used with permission from Tuned In  Broadcasting and John Scofield.)
+Intelligence in Context,  National Science Foundation, March 2007. The talk discussed the desirability of various forms of synthesis  synthesis across the fragmented areas of AI and synthesis of ethics and contemporary issues with technical curricula generally. The importance of balanced research communities was discussed, by including those with strengths at synthesis, those that are strong  depth-oriented (traditional)  researchers, and those that can translate the findings of our  field to inform policy on the important issues of our day such as rapid global climate change (modeling, predicting, mitigating, adapting). Open in a Web Browser and optionally take hyperlinks  from main pages to auxiliary pages; return to the main pages storyline by way of the first small house encountered in the bottom left corner of  a subsequent page.
+All presentations that are not a paper presentation are listed below:
+Approaches to Inductive Concept Learning. Oakridge National Laboratory. Oakridge, TN, April 1988.
+Conceptual Clustering in Problem Solving. University of California, Irvine, CA, April 1988.
+Conceptual Clustering: An Overview and Future Directions. Naval Research Laboratory, Washington, D.C., March 1988.
+Models of Concept Formation in Problem-Solving. Georgia Institute of Technology, Atlanta, Georgia, April, 1989.
+A Model of Natural Category Structure and it Paradigmatic Implications. ONR-sponsored Workshop on Complex Human Reasoning. Cornell University, Ithaca, NY, June, 1989.
+Panel Discussant, Best Bets in Machine Learning (Ryszard Michalski, organizer). IEEE Workshop on Tools for Artificial Intelligence. Washington, D.C. October, 1989.
+Concept Formation and Problem Solving. University of North Carolina Charlotte, NC, November, 1989 (Simulcast at Duke University and University of North Carolina, Chapel Hill).
+Concept Formation and Problem Solving. Carnegie Mellon University, Pittsburgh, PA, November, 1989.
+Basic Levels of Problem Solving. NASA Ames, Moffett Field, CA, July, 1990.
+Machine Learning Tutorial. International Conference on Industrial and Engineering Applications of Artificial Intelligence, Charleston, SC,  July, 1990.
+Panel Discussant. Computational Approaches to Category Learning, Annual Conference of the Cognitive Science Conference, Boston, MA, July, 1990.
+Panel Discussant. Challenges and Prospects for Intelligent Systems, International Conference on Industrial and Engineering Applications of Artificial Intelligence, Charleston, SC, July, 1990.
+Concept Formation and Problem Solving. The Turing Institute, Glasgow, Scotland, August, 1990.
+Concept Formation and Problem Solving. University of Aberdeen, Scotland, August, 1990.
+Keynote Speaker, Florida AI Research Symposium, Cocoa Beach, Florida, April, 1991.
+Problem Solving and Categorization, Texas Tech University, Lubbock, Texas, October, 1991.
+Problem Solving and Categorization, Georgia Institute of Technology, Atlanta, Georgia, November, 1991.
+Industrial Applications of Machine Learning, Middle Tennessee State University, Murfreesboro, TN, October, 1992.
+Tutorial on Machine Learning,  Fourth International Workshop on AI and Statistics, Ft. Lauderdale, FL, Jan. 1993
+Panel Discussant, Industrial Applications of Machine Learning,  AAAI Workshop on AI in Business, Washington, DC, July, 1993.
+Opponent, Dissertation defense of Fredrik Kilander,  Stockholm University, Sweden, May 1994.
+Mitigating Process Delays in Printing using Machine Induction, Universitat Politecnica de Catalunya, Barcelona, Spain, January, 1995.
+Keynote Speaker, Florida AI Research Symposium, Cocoa Beach, Florida, April, 1995.
+Mitigating Process Delays in Printing using Machine Induction, Louis Pasteur University, Strasbourg, France, November, 1995.
+Problem Solving, Categorization, and Concept Learning: A Unifying View, Louis Pasteur University, Strasbourg, France, November, 1995.
+Invited Speaker, Lewis Society, Vanderbilt University, Natural Intelligence Meets Artificial Intelligence:  Mitigating Process Delays in Printing using Machine Induction, November, 1995.
+Mitigating Process Delays in Printing using Machine Induction, Carnegie Mellon University, June, 1996.
+Mitigating Process Delays in Printing using Machine Induction, University of the South,  October, 1997.
+Panel member, Doctoral consortium, National Conference on Artificial Intelligence, July, 1998.
+Organizing memory to optimize inference. Conference of the Society of Mathematical Psychology. Vanderbilt University, August, 1998.
+Theological implications of perceived machine intelligence Invited presentation and panelist at the Symposium on Theological implications of machine intelligence. Carson-Newman College, Jefferson City, TN, September, 1998.
+Mitigating Process Delays in Printing using Machine Induction, Katholieke University, Leuven, Belgium, December, 1998.
+Evaluating Cluster Quality, Jet Propulsion Laboratory, Pasadena, CA, April, 1999.
+Personal-data mining. Keynote Talk, Workshop on Data Mining, 9th Portuguese Conference on Artificial Intelligence, Evora, Portugal,  September, 1999
+Learning Multidimensional Trees from Data, University of the South, April, 2000.
+Data Mining Applications, Integrated Data Systems 2000 Symposium, Vanderbilt University, November 2000.
+Artificial intelligence and machine learning: Now and the future  Doug Fisher, associate professor of computer science and computer engineering at Vanderbilt University, talks about the state of the art in artificial intelligence and robotics in this interview by Adelyn Jones of WRLT FM radio in Nashville. The interview was aired Sunday, March 19, and was produced by Dan Buckley and Adelyn Jones.  Music by John Scofield. (Used with permission from Tuned In  Broadcasting and John Scofield.)
+Intelligence in Context, National Science Foundation, March 2007.
+

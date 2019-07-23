@@ -1,0 +1,28 @@
+deepjazz: deep learning for jazz
+
+
+Using Keras & Theano for deep learning driven jazz generation
+
+
+I built deepjazz in 36 hours at a hackathon. It uses Keras & Theano, two deep learning libraries, to generate jazz music. Specifically, it builds a two-layer LSTM, learning from the given MIDI file. It uses deep learning, the AI tech that powers Google's AlphaGo and IBM's Watson, to make music -- something that's considered as deeply human.
+
+
+deepjazz has been featured in The Guardian, Aeon Magazine, Inverse, Data Skeptic, the front page of HackerNews, and GitHub's trending showcase (1200+ stars). It has led to the most popular "AI" artist on SoundCloud with 172,000+ listens. Currently, deepjazz is being used as reference material for the course "Interactive Intelligent Devices" at the University of Perugia.
+
+
+Author
+
+
+Ji-Sung Kim
+Princeton University, Department of Computer Science
+hello (at) jisungkim.com
+
+
+Citations
+
+This project develops a lot of preprocessing code (with permission) from Evan Chow's jazzml.
+
+As seen in
+
+
+

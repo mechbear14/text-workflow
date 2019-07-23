@@ -1,0 +1,25 @@
+Magenta
+
+What is Magenta?
+An open source research project exploring the role of machine
+      learning as a tool in the creative process.
+
+
+
+Python
+
+Magenta is distributed as an open source Python library, powered by
+        TensorFlow. This library includes utilities
+        for manipulating source data (primarily music and images), using this data to train
+        machine learning models, and finally generating new content from these models.
+      
+
+
+JavaScript
+Magenta.js is an open source JavaScript API for using the pre-trained Magenta
+        models in the browser. It is built with TensorFlow.js,
+        which allows for fast, GPU-accelerated inference. If you're interested in seeing how
+        Magenta models have been used in existing applications or want to
+        build your own, this is probably the place to start!
+
+

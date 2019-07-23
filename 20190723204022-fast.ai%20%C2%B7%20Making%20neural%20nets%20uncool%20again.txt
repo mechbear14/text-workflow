@@ -1,0 +1,359 @@
+fast.ai  Making neural nets uncool again
+
+Our online courses (all are free and have no ads):
+fast.ai in the news: 
+
+
+08 Jul 2019 Rachel Thomas
+Our newest course is a code-first introduction to NLP, following the fast.ai teaching philosophy of sharing practical code implementations and giving students a sense of the whole game before delving into lower-level details.  Applications covered include topic modeling, classfication (identifying whether the sentiment of a review is postive or negative), language modeling, and translation. The course teaches a blend of traditional NLP topics (including regex, SVD, naive bayes, tokenization) and recent neural network approaches (including RNNs, seq2seq, attention, and the transformer architecture), as well as addressing urgent ethical issues, such as bias and disinformation. Topics can be watched in any order.
+
+
+All videos for the course are on YouTube and all code is on GitHub
+
+All the code is in Python in Jupyter Notebooks, using PyTorch and the fastai library. You can find all code for the notebooks available on GitHub and all the videos of the lectures are in this playlist.
+This course was originally taught in the University of San Francisco MS in Data Science program during May-June 2019. The USF MSDS has been around for 7 years (over 330 students have graduated and gone on to jobs as data scientists during this time!) and is now housed at the Data Institute in downtown SF. In previous years, Jeremy taught the machine learning course and Ive taught a computational linear algebra elective as part of the program.
+Highlights
+Some highlights of the course that Im particularly excited about:
+
+
+Risks raised by new language models such as GPT-2
+
+Most of the topics can stand alone, so no need to go through the course in order if you are only interested in particular topics (although I hope everyone will watch the videos on bias and disinformation, as these are important topics for everyone interested in machine learning). Note that videos vary in length between 20-90 minutes.
+Course Topics
+Overview
+There have been many major advances in NLP in the last year, and new state-of-the-art results are being achieved every month. NLP is still very much a field in flux, with best practices changing and new standards not yet settled on. This makes for an exciting time to learn NLP.  This course covers a blend of more traditional techniques, newer neural net approaches, and urgent issues of bias and disinformation.
+Traditional NLP Methods
+For the first third of the course, we cover topic modeling with SVD, sentiment classification via naive bayes and logisitic regression, and regex.  Along the way, we learn crucial processing techniques such as tokenization and numericalizaiton.
+Deep Learning: Transfer learning for NLP
+Jeremy shares jupyter notebooks stepping through ULMFit, his groundbreaking work with Sebastian Ruder last year to successfully apply transfer learning to NLP. The technique involves training a language model on a large corpus, fine-tuning it for a different and smaller corpus, and then adding a classifier to the end. This work has been built upon by more recent papers such as BERT, GPT-2, and XLNet. In new material (accompanying updates to the fastai library), Jeremy shares tips and tricks to work with languages other than English, and walks through examples implementing ULMFit for Vietnamese and Turkish.
+
+
+Jeremy shares ULMFit implementations in Vietnamese and Turkish
+
+Deep Learning: Seq2Seq translation and the Transformer
+We will dig into some underlying details of how simple RNNs work, and then consider a seq2seq model for translation.  We build up our translation model, adding approaches such as teacher forcing, attention, and GRUs to improve performance.  We are then ready to move on to the Transformer, exploring an implementation.
+
+
+The Transformer for language translation
+
+Ethical Issues in NLP
+NLP raises important ethical issues, such as how stereotypes can be encoded in word embeddings and how the words of marginalized groups are often more likely to be classified as toxic. It was a special treat to have Stanford PhD student Nikhil Garg share his work which had been published in PNAS on this topic. We also learn about a framework for better understanding the causes of different types of bias, the importance of questioning what work we should avoid doing altogether, and steps towards addressing bias, such as Data Statements for NLP.
+
+
+Nikhil Garg gave a guest lecture on his work showing how word embeddings quantify stereotypes over the last 100 years
+
+Bias is not the only ethical issue in NLP. More sophisticated language models can create compelling fake prose that may drown out real humans or manipulate public opinion. We cover dynamics of disinformation, risks of compelling computer generated text, OpenAIs controversial decision of staged release for GPT-2, and some proposed steps towards solutions, such as systems for verification or digital signatures.
+
+
+On why algorithmic bias matters, different types, and steps towards addressing it
+
+We hope you will check out the course!  All the code for the jupyter notebooks used in the class can be found on GitHub and a playlist of all the videos is available on YouTube.
+Prerequisites
+(Updated to add) Familiarity with working with data in Python, as well as with machine learning concepts (such as training and test sets) is a necessary prerequisite.  Some experience with PyTorch and neural networks is helpful.
+As always, at fast.ai we recommend learning on an as-needed basis (too many students feel like they need to spend months or even years on background material before they can get to what really interests them, and too often, much of that background material ends up not even being necessary). If you are interested in this course, but unsure whether you have the right background, go ahead and try the course!  If you find necessary concepts that you are unfamiliar with, you can always pause and study up on them.
+Also, please be sure to check out the fast.ai forums as a place to ask questions and share resources.
+
+
+28 Jun 2019 Jeremy Howard
+Today we are releasing a new course (taught by me), Deep Learning from the Foundations, which shows how to build a state of the art deep learning model from scratch. It takes you all the way from the foundations of implementing matrix multiplication and back-propogation, through to high performance mixed-precision training, to the latest neural network architectures and learning techniques, and everything in between. It covers many of the most important academic papers that form the foundations of modern deep learning, using code-first teaching, where each method is implemented from scratch in python and explained in detail (in the process, well discuss many important software engineering techniques too). The whole course, covering around 15 hours of teaching and dozens of interactive notebooks, is entirely free (and ad-free), provided as a service to the community. The first five lessons use Python, PyTorch, and the fastai library; the last two lessons use Swift for TensorFlow, and are co-taught with Chris Lattner, the original creator of Swift, clang, and LLVM.
+
+
+
+
+This course is the second part of fast.ais 2019 deep learning series; part 1, Practical Deep Learning for Coders, was released in January, and is a required pre-requisite. It is the latest in our ongoing commitment to providing free, practical, cutting-edge education for deep learning practitioners and educatorsa commitment that has been appreciated by hundreds of thousands of students, led to The Economist saying Demystifying the subject, to make it accessible to anyone who wants to learn how to build AI software, is the aim of Jeremy Howard It is working, and to CogX awarding fast.ai the Outstanding Contribution in AI award.
+
+
+
+
+The purpose of Deep Learning from the Foundations is, in some ways, the opposite of part 1. This time, were not learning practical things that we will use right away, but are learning foundations that we can build on. This is particularly important nowadays because this field is moving so fast.  In this new course, we will learn to implement a lot of things that are inside the fastai and PyTorch libraries. In fact, well be reimplementing a significant subset of the fastai library! Along the way, we will practice implementing papers, which is an important skill to master when making state of the art models.
+
+
+Chris Lattner at TensorFlow Dev Summit
+
+A huge amount of work went into the last two lessonsnot only did the team need to create new teaching materials covering both TensorFlow and Swift, but also create a new fastai Swift library from scratch, and add a lot of new functionality (and squash a few bugs!) in Swift for TensorFlow. It was a very close collaboration between Google Brains Swift for TensorFlow group and fast.ai, and wouldnt have been possible without the passion, commitment, and expertise of the whole team, from both Google and fast.ai. This collaboration is ongoing, and today Google is releasing a new version of Swift for TensorFlow (0.4) to go with the new course. For more information about the Swift for TensorFlow release and lessons, have a look at this post on the TensorFlow blog.
+In the remainder of this post Ill provide a quick summary of some of the topics you can expect to cover in this courseif this sounds interesting, then get started now! And if you have any questions along the way (or just want to chat with other students) theres a very active forum for the course, with thousands of posts already.
+Lesson 8: Matrix multiplication; forward and backward passes
+Our main goal is to build up to a complete system that can train Imagenet to a world-class result, both in terms of accuracy and speed. So well need to cover a lot of territory.
+
+
+Our roadmap for training a CNN
+
+Step 1 is matrix multiplication! Well gradually refactor and accelerate our first, pure python, matrix multiplication, and in the process will learn about broadcasting and einstein summation. Well then use this to create a basic neural net forward pass, including a first look at how neural networks are initialized (a topic well be going into in great depth in the coming lessons).
+
+
+Broadcasting and einsum let us accelate matmul dramatically
+
+Then we will implement the backwards pass, including a brief refresher of the chain rule (which is really all the backwards pass is). Well then refactor the backwards path to make it more flexible and concise, and finally well see how this translates to how PyTorch actually works.
+
+
+Back propagation from scratch
+
+Papers discussed
+Lesson 9: Loss functions, optimizers, and the training loop
+In the last lesson we had an outstanding question about PyTorchs CNN default initialization. In order to answer it, I did a bit of research, and we start lesson 9 seeing how I went about that research, and what I learned. Students often ask how do I do research, so this is a nice little case study.
+Then we do a deep dive into the training loop, and show how to make it concise and flexible. First we look briefly at loss functions and optimizers, including implementing softmax and cross-entropy loss (and the logsumexp trick). Then we create a simple training loop, and refactor it step by step to make it more concise and more flexible. In the process well learn about nn.Parameter and nn.Module, and see how they work with nn.optim classes. Well also see how Dataset and DataLoader really work.
+Once we have those basic pieces in place, well look closely at some key building blocks of fastai: Callback, DataBunch, and Learner. Well see how they help, and how theyre implemented. Then well start writing lots of callbacks to implement lots of new functionality and best practices!
+
+
+Callbacks in the training loop
+
+Papers discussed
+Lesson 10: Looking inside the model
+In lesson 10 we start with a deeper dive into the underlying idea of callbacks and event handlers. We look at many different ways to implement callbacks in Python, and discuss their pros and cons. Then we do a quick review of some other important foundations:
+
+__dunder__ special symbols in Python
+How to navigate source code using your editor
+Variance, standard deviation, covariance, and correlation
+Softmax
+Exceptions as control flow
+
+
+
+Python's special methods let us create objects that behave like builtin ones
+
+Next up, we use the callback system weve created to set up CNN training on the GPU. This is where we start to see how flexible this sytem iswell be creating many callbacks during this course.
+
+
+Some of the callbacks we'll create in this course
+
+Then we move on to the main topic of this lesson: looking inside the model to see how it behaves during training. To do so, we first need to learn about hooks in PyTorch, which allow us to add callbacks to the forward and backward passes. We will use hooks to track the changing distribution of our activations in each layer during training. By plotting this distributions, we can try to identify  problems with our training.
+
+
+An example temporal activation histogram
+
+In order to fix the problems we see, we try changing our activation function, and introducing batchnorm. We study the pros and cons of batchnorm, and note some areas where it performs poorly. Finally, we develop a new kind of normalization layer to overcome these problems, compare it to previously published approaches, and see some very encouraging results.
+Papers discussed
+Lesson 11: Data Block API, and generic optimizer
+We start lesson 11 with a brief look at a smart and simple initialization technique called Layer-wise Sequential Unit Variance (LSUV). We implement it from scratch, and then use the methods introduced in the previous lesson to investigate the impact of this technique on our model training. It looks pretty good!
+Then we look at one of the jewels of fastai: the Data Block API. We already saw how to use this API in part 1 of the course; but now we learn how to create it from scratch, and in the process we also will learn a lot about how to better use it and customize it. Well look closely at each step:
+
+Get files: well learn how os.scandir provides a highly optimized way to access the filesystem, and os.walk provides a powerful recursive tree walking abstraction on top of that
+Transformations: we create a simple but powerful list and function composition to transform data on-the-fly
+Split and label: we create flexible functions for each
+DataBunch: well see that DataBunch is a very simple container for our DataLoaders
+
+Next up, we build a new StatefulOptimizer class, and show that nearly all optimizers used in modern deep learning training are just special cases of this one class. We use it to add weight decay, momentum, Adam, and LAMB optimizers, and take a look a detailed look at how momentum changes training.
+
+
+The impact of varying momentum on a synthetic training example
+
+Finally, we look at data augmentation, and benchmark various data augmentation techniques. We develop a new GPU-based data augmentation approach which we find speeds things up quite dramatically, and allows us to then add more sophisticated warp-based transformations.
+
+
+Using GPU batch-level data augmentation provides big speedups
+
+Papers discussed
+Lesson 12: Advanced training techniques; ULMFiT from scratch
+We implement some really important training techniques in lesson 12, all using callbacks:
+
+MixUp, a data augmentation technique that dramatically improves results, particularly when you have less data, or can train for a longer time
+Label smoothing, which works particularly well with MixUp, and significantly improves results when you have noisy labels
+Mixed precision training, which trains models around 3x faster in many situations.
+
+
+
+An example of MixUp augmentation
+
+We also implement xresnet, which is a tweaked version of the classic resnet architecture that provides substantial improvements. And, even more important, the development of it provides great insights into what makes an architecture work well.
+Finally, we show how to implement ULMFiT from scratch, including building an LSTM RNN, and looking at the various steps necessary to process natural language data to allow it to be passed to a neural network.
+
+
+ULMFiT
+
+Papers discussed
+Lesson 13: Basics of Swift for Deep Learning
+By the end of lesson 12, weve completed building much of the fastai library for Python from scratch. Next we repeat the process for Swift! The final two lessons are co-taught by Jeremy along with Chris Lattner, the original developer of Swift, and the lead of the Swift for TensorFlow project at Google Brain.
+
+
+Swift code and Python code don't look all that different
+
+In this lesson, Chris explains what Swift is, and what its designed to do. He shares insights on its development history, and why he thinks its a great fit for deep learning and numeric programming more generally. He also provides some background on how Swift and TensorFlow fit together, both now and in the future. Next up, Chris shows a bit about using types to ensure your code has less errors, whilst letting Swift figure out most of your types for you. And he explains some of the key pieces of syntax well need to get started.
+Chris also explains what a compiler is, and how LLVM makes compiler development easier. Then he shows how we can actually access and change LLVM builtin types directly from Swift! Thanks to the compilation and language design, basic code runs very fast indeed - about 8000 times faster than Python in the simple example Chris showed in class.
+
+
+Learning about the implementation of `float` in Swift
+
+Finally, we look at different ways of calculating matrix products in Swift, including using Swift for TensorFlows Tensor class.
+Swift resources
+Lesson 14: C interop; Protocols; Putting it all together
+Todays lesson starts with a discussion of the ways that Swift programmers will be able to write high performance GPU code in plain Swift. Chris Lattner discusses kernel fusion, XLA, and MLIR, which are exciting technologies coming soon to Swift programmers.
+Then Jeremy talks about something thats available right now: amazingly great C interop. He shows how to use this to quickly and easily get high performance code by interfacing with existing C libraries, using Sox audio processing, and VIPS and OpenCV image processing as complete working examples.
+
+
+Behind the scenes of Swift's C interop
+
+Next up, we implement the Data Block API in Swift! Well actually in some ways its even better than the original Python version. We take advantage of an enormously powerful Swift feature: protocols (aka type classes).
+
+
+Data blocks API in Swift!
+
+We now have enough Swift knowledge to implement a complete fully connect network forward pass in Swiftso thats what we do! Then we start looking at the backward pass, and use Swifts optional reference semantics to replicate the PyTorch approach. But then we learn how to do the same thing in a more Swifty way, using value semantics to do the backward pass in a really concise and flexible manner.
+Finally, we put it all together, implementing our generic optimizer, Learner, callbacks, etc, to train Imagenette from scratch! The final notebooks in Swift show how to build and use much of the fastai.vision library in Swift, even although in these two lessons there wasnt time to cover everything. So be sure to study the notebooks to see lots more Swift tricks
+Further information
+More lessons
+Well be releasing even more lessons in the coming months and adding them to an attached course well be calling Applications of Deep Learning. Theyll be linked from the Part 2 course page, so keep an eye out there. The first in this series will be a lesson about audio processing and audio models. I cant wait to share it with you all!
+
+
+Sneak peak at the forthcoming Audio lesson
+
+
+
+17 Jun 2019 Jeremy Howard
+For creating presentations theres a lot of features in PowerPoint that are hard to beat. So its not surprising that its a very popular toolI see a lot of folks presenting PowerPoint presentations at machine learning talks that I attend. However, for equation-heavy academic publishing, many scientists prefer LaTeX. There are many reasons for this, but one key one is that LaTeX provides great support for creating equations. Whilst PowerPoint has an equation editor of its own, it is not a great match for LaTeX-using scientists, because:
+
+Its a pain to have to re-enter all your equations again into a new tool
+The GUI approach takes a lot longer to enter equations compared to LaTeX (once youve learned LaTeXs syntax). Although Microsoft Office equations have great keyboard support too, if you know where to look.
+
+To avoid this problem, most scientists Ive seen tend to copy screenshots from the LaTeX output of their papers, and paste them into PowerPoint. However this has its own problems, for instance:
+
+The fonts are unlikely to match up correctly
+Its hard to resize the text to match the equation picture, and visa versa
+The bitmap screenshot is low resolution, so doesnt print well
+The equations dont reflow with the text, so have to be manually placed
+Alignment commands dont work, so alignment has to be done manually
+and so forth
+
+If youre one of those people looking to include LaTeX equations in PowerPoint, Ive got some good news for youhave a look at this:
+
+
+Real equations in PowerPoint, using LaTeX syntax
+
+Thats right, this picture shows a real, editable, resizable, full-resolution equation in PowerPoint, created using LaTeX syntax! Whats the secret? Well the secret is that Microsoft has actually included this functionality in PowerPoint for us, but they just totally butchered the front-end implementation, and failed to document it properly! So for my fathers day 2019 project, I created a little add-in to try to address that. Heres how to use it.
+How to use LaTeX in PowerPoint
+To use LaTeX in PowerPoint you have to complete a few setup steps first. (Ive only tested this on the latest Office 365 on Windows 10.)
+
+Download the latex PowerPoint add-in from here
+Put the add-in file somewhere convenient, and then add it to PowerPoint by clicking File then Options, clicking Add-ins in the options list on the left, then choose PowerPoint Add-ins from the Manage drop-down, and click Go. Choose Add New in the dialog box that pops up, and select the latex.ppam file you downloaded
+Click Enable Macros in the security notice that pops up.
+
+
+
+The 'PowerPoint Add-ins' window
+
+
+
+The 'Security Notice' window
+
+Youll now find that theres a new LaTeX tab in your ribbon. Each time you open a new PowerPoint session youll need to switch it to LaTeX mode. To do so, click inside a text box (so the cursor is flashing) and choose Enable LaTeX in the LaTeX tab. This file will now be in LaTeX mode until you close and reopen PowerPoint. This is necessary to use the Input LaTeX button (see next paragraph), which is the only way I suggest to try to enter or edit LaTeX in PowerPoint.
+Now you are ready to insert your equation. Click inside a text box, and ensure the cursor is at the end of the text box (currently the macro only works if youre at the end of the selected text box). Now click Input LaTeX in the LaTeX tab, and paste your equation into the input box that pops up (you can also type into it, of course, although Id suggest you type your LaTeX into a regular text editor and paste it to PowerPoint from there, so you have a convenient source for all your equations LaTeX source). Thats it! The equation is now a regular PowerPoint equation, so when you click inside it, everything is editable, and you can also select the equation and change its font size, color, etc.
+You can even select the equation and add Wordart effects to it, if you want to really ham things up!
+
+
+Don't do this in polite company
+
+Additional customization and tips
+You can edit the equation using the normal Microsoft Office equation ribbon commands. If you want to see and edit the LaTeX source again, click Linear on the Equation ribbon. However, dont edit this LaTeX directly in PowerPointit will mangle it as you type! Instead, copy it into an external editor and change it there, then create a new equation with the Input LaTeX command as above. (This is why its easier to simply keep all your original LaTeX source in a plain text file, if youre not editing the equations using the equation ribbon.)
+Apparently Microsoft hates productivity, or at least thats the only reason I can think of that they decided to remove one of the most important features for productivity: the ability to customize and add keyboard shortcuts. So if you want to add a keyboard shortcut for Input LaTeX, you instead have to right-click on the Input LaTeX button in the ribbon, and choose Add to Quick Access Toolbar. Youll now see an extra button in the very top left of your window (thats the Quick Access Toolbar). Press and release Alt, and youll be able to see what numeric shortcut has been assigned to that button. Press and release Alt again to remove the shortcut overlays. Now youre ready to use the keyboard shortcut. Click inside a textbox as before (at the end of it) and, while holding down Alt, press the number you noted down before. You should see the input box appear.
+If you want to contribute improvements to the add-in, or just see how it works, head over to the latex-ppt repo. latex.pptm contains the macro, so you can edit it and try out your changes there. If you just want to see the (tiny amount) of code, Ive popped it in the macros.bas file. My macros are very basic right now, so PRs with improvements and fixes are most welcome!
+How this works
+Microsoft have actually added all the necessary stuff to make LaTeX work in PowerPoint already. Theyve just not provided any UI for it, or documentation. And the editor doesnt work. So I created a little add-in to automate the use of the features described below.
+Microsoft Office supports a rather nifty plain text equation format called UnicodeMath, which used to be called Linear format. Thats what the PowerPoint ribbon still calls it, in fact. In the Equation ribbon you can click the Linear format button to type UnicodeMath directly. You can switch the linear format mode to LaTeX by typing Unicode character  into an equation. Apparently thats been in Microsoft Office for a while, but its only recently that the developer actually got around to writing it down. This post includes some additional useful information:
+
+The LaTeX option supports all TeX control words appearing in Appendix B of the UnicodeMath spec. That includes many math operators, Greek letters, and various other symbols. The verbose LaTeX notations like \begin{equation} and \begin{matrix} arent supported, but the more concise TeX notations are supported, such as \matrix{} and \pmatrix{}. Fractions can be entered in the LaTeX form \frac{}{} or in the TeX form {\over}. \displaymath is implied if the math zone fills the hard/soft paragraph and currently it cant be turned on in inline math zones. Unicode math alphanumerics can be entered using control words like \mathbf{}.
+
+I hope you find this add-in and documentation useful! Many thanks to Murray Sargent of Microsoft who built the functionality in Office that this add-in uses.
+
+
+28 May 2019 Rachel Thomas
+YouTube has played a significant role in radicalizing people into conspiracy theories that promote white supremacy, anti-vaxxing, denial of mass shootings, climate change denial, and distrust of mainstream media, by aggressively recommending (and autoplaying) videos on these topics to people who werent even looking for them. YouTube recommendations account for 70% of time spent on the platform, and these recommendations disproportionately include harmful conspiracy theories. YouTubes recommendation algorithm is trying to maximize watch time, and content that convinces you the rest of the media is lying will result in more time spent watching YouTube.
+Given all this, you might expect that Google/YouTube takes these issues seriously and is working to address them. However, when the New York Times interviewed YouTubes most senior product executive, Neal Mohan, he made a series of statements that, in my opinion, were highly misleading, perpetuated misconceptions, denied responsibility, and minimized an issue that has destroyed lives. Mohan has been a senior executive at Google for over 10 years and has 20 years of experience in the internet ad industry (which is Google/YouTubes core business model). Google is well-known for carefully controlling its public image, yet Google has not issued any sort of retraction or correction of Mohans statements. Between Mohans expertise and Googles control over its image, we cant just dismiss this interview.
+
+
+Headlines about YouTube from CNN, Newsweek, New York Times, & Bloomberg
+
+Radicalization via YouTube
+Worldwide, people watch 1 billion hours of YouTube per day (yes, that says PER DAY). A large part of YouTubes successs has been due to its recommendation system, in which a panel of recommended videos are shown to the user and the top video automatically begin playing once the previous video is over. This drives 70% of time spent on YouTube. Unfortunately, these recommendations are disproportionately for conspiracy theories promoting white supremacy, anti-vaxxing, denial of mass shootings, climate change denial, and denying the accuracy of mainstream media sources. YouTube may be one of the most powerful radicalizing instruments of the 21st century, Professor Zeynep Tufekci wrote in the New York Times. YouTube is owned by Google, which is earning billions of dollars by aggressively introducing vulnerable people to conspiracy theories, while the rest of society bears the externalized costs.
+
+
+What is going on? YouTubes algorithm was built to maximize how much time people spend watching YouTube, and conspiracy theorists watch significantly more YouTube than people who trust a variety of media sources. Unfortunately, a recommendation system trying only to maximize time spent on its own platform will incentivize content that tells you the rest of the media is lying, as explained by YouTube whistleblower Guillaume Chaslot.
+What research has been done on this?
+Guillaume Chaslot, who has a PhD in artificial intelligence and previously worked at Google on YouTubes recommendation system, wrote software which does a YouTube search with a seed phrase (such as Donald Trump, Michelle Obama, or is the earth round or flat?), and records what video is Up Next as the top recommendation, and then follows what video is Up Next next after that, and so on.  The software does this with no viewing history (so that the recommendations are not influenced by user preferences), and repeats this thousands of times.
+
+
+Photo of Guillaume Chaslot from the Guardian
+
+Chaslot collected 8,000 videos from Up Next recommendations between August-November 2016: half came as part of the chain of recommendations after searching for Clinton and half after searching for Trump. When Guardian reporters analyzed the videos, they found that they were 6 times as likely to be anti-Hillary Clinton (regardless of whether the user had searched for Trump or Clinton), and that many contained wild conspiracy theories:
+There were dozens of clips stating Clinton had had a mental breakdown, reporting she had syphilis or Parkinsons disease, accusing her of having secret sexual relationships, including with Yoko Ono. Many were even darker, fabricating the contents of WikiLeaks disclosures to make unfounded claims, accusing Clinton of involvement in murders or connecting her to satanic and paedophilic cults.
+This is just one of many themes that Chaslot has researched. Chaslots quantitative research on YouTubes recommendations has been covered by The Wall Street Journal, NBC, MIT Tech Review, The Washington Post, Wired, and elsewhere.
+In Feb 2018, Google Promised to Publish a Blog Post Refuting Chaslot (but still hasn't)
+According to the Columbia Journalism Review, When The Guardian wrote about Chaslots research, he says representatives from Google and YouTube criticized his methodology and tried to convince the news outlet not to do the story, and promising to publish a blog post refuting his claims. No such post was ever published. Google said it strongly disagreed with the researchbut after Senator Mark Warner raised concerns about YouTube promoting what he called outrageous, salacious, and often fraudulent content, Google thanked The Guardian for doing the story. (emphasis mine)
+Why would Google claim that they had evidence refuting Chaslots research, and then never publish it? The Guardian story ran over a year ago, yet Google has still not produced their promised blog post. This suggests to me that Google was lying. It is important to keep this in mind when weighing the truthfulness of more recent claims by Google leaders regarding YouTube.
+What did Neal Mohan get wrong?
+YouTubes Chief Product Officer, Neal Mohan, was interviewed in the New York Times, where he seemed to deny a well-documented phenomenon, ignored that 70% of time spent on the site comes from autoplaying recommendations (instead blaming users for what videos they choose to click on), made a nonsensical both sides argument (even though YouTube has extremist videos, they also have non-extremist videos?), and perpetuated misconceptions (suggesting that since extremism isnt an explicit input to the algorithm, that the results cant be biased towards extremism).  In general, his answers often seemed evasive, failing to answer the question that had been asked, and at no point did he seem to take responsibility for any mistakes or harms caused by YouTube.
+Even the reporter interviewing Mohan seemed surprised, at one point interrrupting him to clarify, Sorry, can I just interrupt you there for a second? Just let me be clear: Youre saying that there is no rabbit hole effect on YouTube? (The rabbit hole effect is when the recommendation system gradually recommends videos that are more and more extreme). In response, Mohan blamed users and still failed to give a straightforward answer.
+As background, Mohan first began working in the internet ad industry in 1997 at DoubleClick, which was aquired by Google for $3.1 billion in 2008. Mohan then served as SVP of display and video ads for Google for 7 years, before switching into the role of Chief Product Officer for Googles YouTube. YouTubes primary source of revenue is ads, and in 2018, YouTube was estimated to be doing $15 billion in annual sales and to be worth as much as $100 billion. Mohan is so beloved by Google that they offered him an additional $100 million in stock in 2013 to turn down a job offer from Twitter. All in all, this means that Mohan has 11 years of experience as a Google senior executive, and over 20 years of experience in the internet ad industry.
+It is not the case that extreme content drives a higher version of engagement or watch time than content of other types. Neal Mohan
+Unfortunately, any recommendation system trying only to maximize time spent on its own platform will incentivize content that tells you the rest of the media is lying. A 2012 Google blog post and a 2016 paper published by YouTube engineers both confirm this: the YouTube algorithm was designed to maximize watch time. Ex-YouTube engineer Guillaume Chaslot explains the dynamic in more detail here.
+The issues of YouTubes role in radicalization has been confirmed by investigations by the Wall Street Journal and the Guardian, quantitative research projects such as AlgoTransparency, and by 20 current and former YouTube employees. Five senior personnel who quit Google/YouTube in the last 2 years privately cited the failure of YouTubes leadership to address false, incendiary, and toxic content as their reason for leaving. That Mohan would try to deny this seems as outlandish as many of the conspiracy theories promoted on YouTube.
+
+
+According to a Bloomberg investigation, Google leaders have repeatedly rejected efforts of YouTube staff who sought to address or even just investigate the issue of false, incendiary, & toxic content One employee wanted to flag troubling videos, which fell just short of the hate speech rules, and stop recommending them to viewers. Another wanted to track these videos in a spreadsheet to chart their popularity. A third, fretful of the spread of alt-right video bloggers, created an internal vertical that showed just how popular they were. Each time they got the same basic response: Dont rock the boat In February of 2018, a video calling the Parkland shooting victims crisis actors went viral on YouTubes trending page. Policy staff suggested soon after limiting recommendations on the page to vetted news sources. YouTube management rejected the proposal.
+70% of YouTube views come from autoplaying its recommendations
+Im not saying that a user couldnt click on one of those videos that are quote-unquote more extreme, consume that and then get another set of recommendations and sort of keep moving in one path or the other. All Im saying is that its not inevitable. Neal Mohan
+This statement ignores the way that YouTubes autoplay works in conjunction with recommendations, which drives 70% of time that users spend on the site, according to a previous talk Neal Mohan gave. Yes, technically, it is not inevitable, but it is the mechanism driving 700 million hours of watched videos PER DAY (70% of 1 billion). Mohans statement suggests that users are choosing to click on extreme videos, whereas in most cases, videos are being selected by YouTube and automaticaly begin playing without any clicking required.
+Case study: Alex Jones
+To understand the role of YouTubes autoplaying recommendations, it is crucial to understand the distinction between hosting content and promoting content. To illustrate with an example, YouTube recommended Infowars director Alex Jones 15,000,000,000 times (before banning him in August 2018). If you are not familiar with Alex Jones, the Southern Poverty Law Center rates him as the most prolific conspiracy theorist of contemporary times. One of his conspiracy theories is that the 2012 Sandy Hook Elementary School shooting, in which 20 children were murdered, was faked, and that the parents of the murdered children are lying.  This has resulted in a years long harassment campaign against these grieving parents many of them have had to move multiple times to try to evade harassment and one father recently committed suicide. Alex Jones also advocates for white supremacy, against vaccines, and that victims of the Parkland school shooting are crisis actors.
+
+
+The issue is not that people were searching for Alex Jones videos; the issue is that YouTube recommended (and often began autoplaying) Alex Jones videos 15,000,000,000 times to people who werent even looking for them.  More recently, YouTube has been aggressively promoting content from Russia Today (RT), a Russian state-owned propaganda outlet.
+As computational propaganda expert Renee DiResta wrote for Wired, There is no First Amendment right to amplificationand the algorithm is already deciding what you see. Content-based recommendation systems and collaborative filtering are never neutral; they are always ranking one video, pin, or group against another when theyre deciding what to show you. Autoplaying conspiracy theories boosts YouTubes revenue as people are radicalized, they stop spending time on mainstream media outlets and spend more and more time on YouTube.
+Algorithms can be biased on variables that arent part of the dataset.
+What Im saying is that when a video is watched, you will see a number of videos that are then recommended. Some of those videos might have the perception of skewing in one direction or, you know, call it more extreme. There are other videos that skew in the opposite direction, Mohan gave a vague both sides defense, although it is unclear how less extreme videos balance out more extreme videos. He continued, And again, our systems are not doing this, because thats not a signal that feeds into the recommendations. Mohan is suggesting that since extremism is not an explicit variable that is fed into the algorithm, the algorithm cant be biased towards extremist material.  This is false, but a common and dangerous misconception.
+Algorithms can be (and often are) biased on variables that are not a part of the dataset.  In fact, this is what machine learning does: it picks out latent variables.  For example, the COMPAS recidivism algorithm, used in many USA courtrooms as part of bail, sentencing, or parole decisions, was found to have nearly twice as high a false positive rate for Black defendents compared to white defendents.  That is, 45% of Black defendents who were labeled as high-risk did not commit another crime; compared to 24% of white defendents.  Race is not an input variable to this software, so by Mohans reasoning, there should be no problem.
+
+
+Not only does ignoring factors like race, gender, or extremism not protect you from biased results, many machine learning experts recommend the opposite: you need to be measuring these quantities to ensure that you are not unjustly biased.
+
+
+YouTube is using machine learning to pump pollution into society.  From my TEDx talk.
+
+Like many people around the world, Im alarmed by the resurgence in white supremacist movements and continued denialism of climate change, and it sickens me to think how much money YouTube has earned by aggressively promoting such conspiracy theories to people who werent even looking for them. I spend most of my time studying AI ethics, and I have been including YouTubes behavior as an example (of what not to do) in my keynote talks for the last 2 years. Even though I know the big tech companies wont do the right thing unless forced to by meaningful regulation, I was still disheartened by this New York Times interview. Not only does Google/YouTube still not take these issues seriously, but it is insulting that they think the rest of us will be placated by their misleading corporate-speak and half-baked evasions.
+
+
+13 May 2019 Rachel Thomas
+A blog is like a resume, only better. Ive been invited to give keynote talks based on my posts, and I know of people for whom blog posts have led to job offers. Ive encouraged people to start blogging in several of my previous posts, and I even required students in my computational linear algebra course to write a blog post (although they werent required to publish it), since good technical writing skills are useful in the workplace and in interviews. Also, explaining something youve learned to someone else is a way to cement your knowledge. I gave a list of tips for getting started with your first blog post previously, and I wanted to offer some more advanced advice here.
+Who is your audience?
+Advice that my speech coach gave me about preparing talks, which I think also applies to writing, is to choose one particular person that you can think of as your target audience. Be as specific as possible. Its great if this is a real person (and it is totally fine if they are not actually going to read your post or attend your talk), although it doesnt have to be (you just need to be extra-thorough in making up details about them if its not). Either way, what is their background?  What sort of questions or misconceptions might they have about the topic?  At various points, the person Im thinking of has been a friend or colleague, one of my students, or my younger self.
+Being unclear about your audience can lead to a muddled post: for instance, Ive seen blog posts that contain both beginner material (e.g. defining what training and test sets are) as well as very advanced material (e.g. describing complex new architectures). Experts would be bored and beginners would get lost.
+Dos and Don'ts
+When you read other peoples blog posts, think about what works well.  What did you like about it?  And when you read blog posts that you dont enjoy as much, think about why not?  What would make the post more engaging for you?  Note that not every post will appeal to every person. Part of having a target audience means that there are people who are not in your target audience, which is fine. And sometimes Im not somebody elses target audience.  As with all advice, this is based on my personal experience and Im sure that there are exceptions.
+Things that often work well:
+
+Bring together many useful resources (but dont include everything! the value is in your curation)
+Do provide motivation and context. If you are going to explain how an algorithm works, first give some examples of real-world applications where it is used, or how it is different from other options.
+People are convinced by several different things: stories, statistics, research, and visuals.  Try using a blend of these.
+If youre using a lot of code, try writing in a Jupyter notebook (which can be converted into a blog post) or a Kaggle Kernel.
+
+Donts
+
+Dont reinvent the wheel. If you know of a great explanation of something elsewhere, link to it!  Include a quote or one sentence summary about the resource youre linking to.
+Dont try to build everything up from first principles.  For example, if you want to explain the transformer architecture, dont begin by defining machine learning. Who is your target audience?  People already familiar with machine learning will lose interest, and those who are brand new to machine learning are probably not seeking out posts on the transformer architecture. You can assume that your reader already has a certain background (sometimes it is helpful to make this explicit).
+Dont be afraid to have an opinion. For example, TensorFlow (circa 2016, before eager execution) made me feel unintelligent, even though everyone else seemed to be saying how awesome it was. I was pretty nervous writing a blog post that said this, but a lot of people responded positively.
+Dont be too dull or dry. If people lose interest, they will stop reading, so you want to hook them (and keep them hooked!)
+Dont plagiarize. Always cite sources, and use quote marks around direct quotes. Do this even as you are first gathering sources and taking notes, so you dont make a mistake later and forget which material is someone elses. It is wrong to plagiarize the work of others and ultimately will hurt your reputation. Cite and link to people who have given you ideas.
+Dont be too general. You dont have to cover everything on a topic focus on the part that interests (or frustrates) you most.
+
+Put the time in to do it well
+As DeepMind researcher and University of Oxford PhD student Andrew Trask advised, The secret to getting into the deep learning community is high quality blogging Dont just write something ok, eithertake 3 or 4 full days on a post and try to make it as short and simple (yet complete) as possible.  Honestly, Ive spent far more than 3 or 4 days on many of my most popular posts.
+However, this doesnt mean that you need to be a naturally gifted writer. I attended a poor, public high school in a small city in Texas, where I had few writing assignments and didnt really learn to write a proper essay. An introductory English class my first semester of college highlighted how much I struggled with writing, and after that, I tried to avoid classes that would require much writing (part of the reason I studied math and computer science is that those were the only fields I knew of that involved minimal writing AND didnt have lab sessions). It wasnt until I was in my 30s and wanted to start blogging that I began to practice writing. I typically go through many, many drafts, and do lots of revisions. As with most things, skill is not innate; it is something you build through deliberate practice.
+Note: I realize many people may not have time to blog perhaps you are a parent, dealing with chronic illness, suffering burnout from a toxic job, or prefer to do other things in your free time thats alright!  You can still have a successful career without blogging, this post is only for those who are interested.
+Write a blog version of your academic paper
+The top item on my wish list for AI researchers is that more of them would write blog posts to accompany their papers:
+
+
+Far more people may read your blog post than will read an academic paper. This is a chance to get your message to a broader audience, in a more conversational and accessible format. You can and should link to your academic paper from your blog post, so theres no need to worry about including all the technical details.  People will read your paper if they want more detail!
+Check out these excellent pairs of academic papers and blog posts for inspiration:
+I usually advise new bloggers that your target audience could be you-6-months-ago.  For grad students, you may need to change this to you-2-years-ago.  Assume that unlike your paper reviewers, the reader of your blog post has not read the related research papers. Assume your audience is intelligent, but not in your subfield.  What does it take to explain your research to a friend in a different field?
+Getting Started with your first post
+Here are some tips Ive shared previously to help you start your first post:
+
+Make a list of links to other blog posts, articles, or studies that you like, and write brief summaries or highlight what you particularly like about them. Part of my first blog post came from my making just such a list, because I couldnt believe more people hadnt read the posts and articles that I thought were awesome.
+Summarize what you learned at a conference you attended, or in a class you are taking.
+Any email youve written twice should be a blog post. Now, if Im asked a question that I think someone else would also be interested in, I try to write it up.
+You are best positioned to help people one step behind you. The material is still fresh in your mind. Many experts have forgotten what it was like to be a beginner (or an intermediate) and have forgotten why the topic is hard to understand when you first hear it.
+What would have helped you a year ago? What would have helped you a week ago?
+If youre wondering about the actual logistics, Medium makes it super simple to get started. Another option is to use Jekyll and Github pages. I can personally recommend both, as I have 2 blogs and use one for each (my other blog is here).
+
+Related Posts
+
+

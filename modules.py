@@ -1,4 +1,4 @@
-from selenium.common.exceptions import InvalidArgumentException, NoSuchElementException,StaleElementReferenceException
+from selenium.common.exceptions import InvalidArgumentException, NoSuchElementException, StaleElementReferenceException
 from urllib.parse import quote
 from datetime import datetime
 from readability import Document
@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 
 # TODO: Instead of writing to files, can you return the results directly for the next block to use?
 class SearchModule:
-    def __init__(self, browser, prefix, block_css, link_css, next_page_css, limit=50, file_name="links.json"):
+    def __init__(self, browser, prefix, block_css, link_css, next_page_css, limit=50, file_name="links.txt"):
         self.prefix = prefix
         self.browser = browser
         self.block_css = block_css
@@ -34,7 +34,7 @@ class SearchModule:
                             continue
                         else:
                             with open("log.txt", "a+") as log:
-                                log.write(datetime.now().strftime("%Y-%m-%d-%h-%m-%s"))
+                                log.write(datetime.now().strftime("%Y%m%d%H%M%S"))
                                 for res in self.results:
                                     res.export(log)
                                 log.write(e.msg)
@@ -53,7 +53,7 @@ class SearchModule:
             result_f = open(self.file_name, "w+")
             for (index, result) in enumerate(self.results):
                 if index < self.limit:
-                    result_f.write(result)
+                    result_f.write(result.encode("utf8").decode("ascii", "ignore"))
                     result_f.write("\n")
                 else:
                     break
@@ -80,3 +80,11 @@ class TextModule:
         title = doc.title()
         body = doc.summary()
         soup = BeautifulSoup(body, "html.parser")
+        text = soup.get_text()
+        time_str = datetime.now().strftime("%Y%m%d%H%M%S")
+        title_str = quote(title, safe="")
+        with open("{}-{}.txt".format(time_str, title_str), "w+") as file:
+            file.write(title.encode("utf8").decode("ascii", "ignore"))
+            file.write("\n")
+            file.write(text.encode("utf8").decode("ascii", "ignore"))
+
